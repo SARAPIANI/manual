@@ -1,5 +1,5 @@
 ---
-description: Versione  v0.2.74 del 4/11/2023
+description: Versione  v0.2.74 del 4/11/2024
 cover: .gitbook/assets/Asset 10.jpg
 coverY: 0
 layout:
@@ -19,6 +19,8 @@ layout:
 ---
 
 # 👋 MANUALE SAFERPLACES PLATFORM
+
+
 
 <figure><img src=".gitbook/assets/Portatile_3_milano.png" alt=""><figcaption><p>SaferPlaces Platform</p></figcaption></figure>
 
