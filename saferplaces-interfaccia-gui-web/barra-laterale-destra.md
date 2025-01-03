@@ -4,11 +4,11 @@ icon: magnifying-glass
 
 # Barra Laterale destra
 
-**Sulla destra della schermata principale è presente un pannello che contiene tutti i layer geo-spaziali  (“**_**layers**_**”) utilizzati per l'attivazione del** [gemello-digitale-digital-twin.md](../gemello-digitale-e-attivazione-nuovo-servizio/gemello-digitale-digital-twin.md "mention") e i layer relativi ai risultati delle [Broken link](broken-reference "mention").
+A destra della schermata principale, troverai un pannello che elenca tutti i layer geospaziali ("layers") utilizzati per l'attivazione del  [gemello-digitale-digital-twin.md](../gemello-digitale-e-attivazione-nuovo-servizio/gemello-digitale-digital-twin.md "mention") e i layer relativi ai risultati delle [Broken link](broken-reference "mention").
 
 I layers geospaziali del progetto sono organizzati nei seguenti gruppi di layers:
 
-* DAMAGE - gruppo di layers dei risultati delle simulazioni di [modello-di-danno-economico-safer\_damage.md](../simulazioni-allagamento-pericolo-e-danno/modello-di-danno-economico-safer\_damage.md "mention")
+* DAMAGE - gruppo di layers dei risultati delle simulazioni di [modello-di-danno-economico-safer\_damage.md](../simulazioni-allagamento-pericolo-e-danno/modello-di-danno-economico-safer_damage.md "mention")
 * COAST - gruppo di layers dei risultati delle simulazioni di [simulazione-allagamento-costiero.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-costiero.md "mention")
 * RIVER - gruppo di layers dei risultati delle simulazioni di [simulazione-allagamento-fluviale.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-fluviale.md "mention")
 * RAIN - gruppo di layers dei risultati delle simulazioni di [simulazione-allagamento-pluviale.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-pluviale.md "mention")

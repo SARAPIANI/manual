@@ -79,7 +79,7 @@ Si tratta  di piccole misure diffuse come come tetti verdi, la progettazione  di
 
 Queste misure trovano applicazione in ambito urbano con la principale finalità di ridurre il rischio da allagamenti pluviali intensi e di breve durata.
 
-La piattaforma Saferplaces consente di simulare queste misure mediante la modifica del [step-3-tasso-di-infiltrazione-raster-geotiff.md](../gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-3-tasso-di-infiltrazione-raster-geotiff.md "mention") che si attiva con lo **strumento "**_**infiltration rate**_**" della** [barra-superiore.md](../saferplaces-interfaccia-gui-web/barra-superiore.md "mention")
+La piattaforma Saferplaces consente di simulare queste misure mediante la modifica del [step-3-tasso-di-infiltrazione-rer-raster-geotiff.md](../gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-3-tasso-di-infiltrazione-rer-raster-geotiff.md "mention") che si attiva con lo **strumento "**_**infiltration rate**_**" della** [barra-superiore.md](../saferplaces-interfaccia-gui-web/barra-superiore.md "mention")
 
 
 

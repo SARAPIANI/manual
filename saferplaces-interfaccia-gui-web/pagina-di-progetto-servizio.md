@@ -1,21 +1,27 @@
 # 💻 Pagina di Progetto/Servizio
 
 {% hint style="info" %}
-Una volta creato il progetto, esso apparirà nella pagina dell'utente  (“_My Projects_”) insieme ai progetti di SaferPlaces esistenti attivati su specifiche aree o città.
+Dopo aver creato un nuovo progetto, vedrai il progetto aggiunto alla tua dashboard personale nella sezione “_My Projects_”.&#x20;
+
+Qui, potrai visualizzare un elenco completo di tutti i tuoi progetti insieme a quelli preesistenti di SaferPlaces.&#x20;
+
+Questi includono vari progetti attivati su specifiche aree o città, consentendoti così di avere una panoramica dettagliata e organizzata di tutti i progetti su cui stai lavorando o che ti interessano.
+
+&#x20;Grazie a questa funzionalità, puoi facilmente gestire e monitorare le iniziative attive, facilitando l'accesso e l'interazione con ciascun progetto direttamente dalla tua pagina utente.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-09 at 22.55.19.png" alt=""><figcaption><p>Pagina Personale con i progetti attivati</p></figcaption></figure>
 
-> Cliccando sul finestra icona del progetto appena creato, l'utente entrerà nell'ambiente di lavoro per quel progetto specifico. In questo modo accederà a tutte le funzioni e gli strumenti per iniziare a lavorare sul progetto. La seguente figura mostra l’interfaccia principale della piattaforma, una volta entrati nel progetto creato.
+Cliccando sull'icona del progetto appena creato, l'utente accede all'ambiente di lavoro specifico per quel progetto. Così facendo, avrà accesso a tutte le funzionalità e gli strumenti necessari per iniziare. La figura seguente mostra l'interfaccia principale della piattaforma dopo l'accesso al progetto.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Interfaccia grafica per lavorare in un progetto creato</p></figcaption></figure>
 
 {% hint style="info" %}
 L'applicazione web è composta da:
 
-* un ambiente di mappatura al centro dello schermo,&#x20;
-* una barra laterale a destra che contiene tutti gli strati spaziali di sfondo (“_layers_”) generati al momento della creazione del progetto ( [barra-laterale-destra.md](barra-laterale-destra.md "mention"))
-* una barra superiore in cui sono presenti sia alcuni strumenti di base, sia strumenti specifici per le simulazioni ( [barra-superiore.md](barra-superiore.md "mention"))
+* un area di mappatura al centro dello schermo,&#x20;
+* una barra laterale a destra con tutti i layers spaziali di sfondo (“_layers_”) generati al momento della creazione del progetto ( [barra-laterale-destra.md](barra-laterale-destra.md "mention"))
+* una barra superiore  con strumenti di base e strumenti specifici per le simulazioni ( [barra-superiore.md](barra-superiore.md "mention"))
 * una barra laterale a sinistra ( [barra-laterale-sinistra.md](barra-laterale-sinistra.md "mention"))
 {% endhint %}
 
