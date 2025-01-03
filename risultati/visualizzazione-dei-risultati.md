@@ -31,6 +31,21 @@ Il nome del Layer generato contiene il nome della simulaizone definito in fase d
 * WD\_ Nel caso dei layer di allagamento
 * DMG\_ Nel caso dei layer di Danno Economico
 
+Per le simulazoni generate con il modello [untrim.md](../simulazioni-allagamento-pericolo-e-danno/modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") vengono generate una serie di output raster layer con la frequenza di stampa definita nei parametri di simulazione. Tutti gli output generati vengono raggruppati in un sottogruppo avente il nome della simulazione (es. WD\_RIVER164153), i raster fanno riferimento ai diversi istanti di tempo in secondi  (es. @600 sec = 10 mins).\
+Nello stesso gruppo vengono prodotti anche il raster dei valori massimi (.max) della Water Depth (m) ed un vettoriale dell'estensione massima dell'allagamento (.mask).
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-03 at 11.25.35.png" alt=""><figcaption></figcaption></figure>
+
+Nel gruppo dei risultati di UNTRIM è possibile cliccando sull'icona play  generare una visualizzazione dinamica dell'evoluzione temporale dell'allagamento simulato dal modello [untrim.md](../simulazioni-allagamento-pericolo-e-danno/modelli-di-allagamento-hazard-saferplaces/untrim.md "mention").
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-03 at 11.33.16.png" alt=""><figcaption></figcaption></figure>
+
+
+
+{% embed url="https://drive.google.com/file/d/177rNt7j1K2sMjnBojQ5gIxDvJ0NhT8F6/view?usp=sharing" %}
+
 {% hint style="warning" %}
 Gli output generati possono essere scaricati come file raster Geotiff oppure come vettoriale shapefile semplicemente cliccando con il tasto destro sul layer di interesse e poi su "_Export_" (Esporta).
 {% endhint %}
@@ -77,7 +92,7 @@ I risultati di questo strumento appariranno nel corrispondente pannello delle at
 
 ![](<../.gitbook/assets/image (15).png>)
 
-Lo strumento "_Bluespots_" è un tool di analisi specifica dei risultati relativi a [simulazione-allagamento-pluviale.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-pluviale.md "mention") ottenute dal modello [safer\_rain.md](../simulazioni-allagamento-pericolo-e-danno/modelli-di-allagamento-hazard-saferplaces/safer\_rain.md "mention").&#x20;
+Lo strumento "_Bluespots_" è un tool di analisi specifica dei risultati relativi a [simulazione-allagamento-pluviale.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-pluviale.md "mention") ottenute dal modello [safer\_rain.md](../simulazioni-allagamento-pericolo-e-danno/modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention").&#x20;
 
 Esso è presente  nella [barra-superiore.md](../saferplaces-interfaccia-gui-web/barra-superiore.md "mention") ed una volta attivato richiede di selezionare nel menu a tendina il  [#nome-simulazione](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-costiero.md#nome-simulazione "mention")per la [simulazione-allagamento-pluviale.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-pluviale.md "mention") in cui si vuole procedere nell'analisi.
 
@@ -132,11 +147,6 @@ ATTENZIONE - Attivare sempre un layer oggetto dell'analisi altrimenti non si vis
 </details>
 
 ## Esempio di visualizzazione dei risultati di una simulazione
-
-@inserire video\
-\
-@@ESPORTAZIONE DEI RISULTATI\
-@@VISUALIZZAZIONE DELLA LEGENDA
 
 {% embed url="https://drive.google.com/open?id=1uXj654z2RTubF5aFxsaXy-TMecSlrv2r&usp=drive_fs" %}
 

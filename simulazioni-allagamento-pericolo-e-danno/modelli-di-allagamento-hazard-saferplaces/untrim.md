@@ -24,13 +24,13 @@ Le equazioni risolte sono descrizioni matematiche di leggi fisiche di conservazi
 
 applicate a diversi tipi di acque (fiumi, laghi, estuari, mari costieri, ecc.).
 
-Le equazioni sopra citate vengono risolte numericamente. Le seguenti grandezze fisiche possono essere ottenute in funzione dello spazio tridimensionale_(x,y,z)_e del tempo _t_:
+Le equazioni sopra citate vengono risolte numericamente. Le seguenti grandezze fisiche possono essere ottenute in funzione dello spazio tridimensional&#x65;_(x,y,z)_&#x65; del tempo _t_:
 
 ●        elevazione della superficie dell'acqua _η(x,y,z)_ rispetto a una superficie di riferimento (ad esempio il livello medio del mare),
 
 ●        velocità della corrente _u(x,y,z,t), v(x,y,z,t), w(x,y,z,t),_
 
-●        componente di pressione non idrostatica _q(x,y,z,t)_e
+●        componente di pressione non idrostatica _q(x,y,z,t)_&#x65;
 
 ●        concentrazione di traccianti _C(x,y,z,t),_ ad esempio temperatura, salinità, concentrazione di sedimenti in sospensione o di inquinanti passivi.
 
