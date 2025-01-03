@@ -106,9 +106,9 @@ L'attivazione del modello di calcolo del Danno Economico procede spuntando il ch
 
 <summary>Definizione dei parametri del modello di calcolo</summary>
 
-**Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non sono necessari ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente
+**Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non sono necessari ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente.
 
-. Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")\
+&#x20;Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")\
 
 
 <img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">

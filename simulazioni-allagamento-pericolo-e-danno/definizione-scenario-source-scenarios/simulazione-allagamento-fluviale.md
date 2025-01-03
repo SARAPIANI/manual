@@ -1,19 +1,15 @@
 # 💦 Simulazione Allagamento Fluviale
 
-In questa sezione “_Fluvial scenario_” (scenario fluviale) l'utente ha  la possibilità di definire e generare uno scenario di allagamento di tipo fluviale determinato da un rilascio volumetrico, per rottura arginale o sormonto (Overtopping), di una portata o volume di acqua in un determinato intervallo di tempo.
+_Nella sezione "Scenario Fluviale"_, gli utenti possono definire e generare uno scenario di allagamento fluviale. Questo può derivare da un rilascio volumetrico, una rottura arginale o sormonto (overtopping), con la fuoriuscita di un flusso o volume d'acqua entro un intervallo di tempo specifico.
 
-Questi rilasci sono localizzati come Sorgenti Puntiformi e possono essere definiti dall'utente localizzandoli lungo gli Argini dell'asta fluviale oggetto della simulazione.
-
-
+I rilasci sono identificati come Sorgenti Puntiformi e possono essere definiti dall'utente posizionandoli lungo gli argini del tratto fluviale oggetto della simulazione
 
 {% hint style="danger" %}
-Nella localizzazione della sorgenti di rilascio volumetrica occorre prestare attenzione ad evitare di collocare il punto sorgente all'interno del sotto-bacino del corso d'acqua. In questo caso l'effetto del rilscio volumetrico andrà ad interessare unicamente l'asta fluviale senza generare allagamento dell'area a valle.
+Durante la localizzazione delle sorgenti di rilascio volumetrico, è fondamentale evitare di posizionare il punto sorgente all'interno del sotto-bacino del corso d'acqua. Così facendo, il rilascio volumetrico influenzerà solo il corso del fiume, senza provocare allagamenti a valle.
 
-Ai fine di localizzare con precisione il punto di rilascio si consiglia di attivare il layer watershed.labels all'interno gruppo denominato "Bluespots" presente nella [barra-laterale-destra.md](../../saferplaces-interfaccia-gui-web/barra-laterale-destra.md "mention").
+Per individuare con precisione il punto di rilascio, attivare il layer watershed.labels nel gruppo "Bluespots" presente nella [barra-laterale-destra.md](../../saferplaces-interfaccia-gui-web/barra-laterale-destra.md "mention").
 
-Il layer watershed.labels rappresenta la suddivisione del dominio di calcolo in sotto-bacini idrologici (sub-basins)  e consente di capire in quale bacino idrologico il punto di rilascio volumetrico scaricherò la portata di allagamento.
-
-
+Questo layer suddivide il dominio di calcolo in sotto-bacini idrologici e aiuta a determinare in quale bacino il rilascio volumetrico causerà inondazioni.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/watershed.png" alt=""><figcaption></figcaption></figure>
@@ -28,7 +24,7 @@ La procedura guidata -Wizard si articola nei seguenti step:
 
 <summary>Nome Simulazione</summary>
 
-L'utente può modificare il nome della simulaizone editando liberamente il nome che viene assegnato automaticamente. Si consiglia di utilizzare un nome composto da caratteri standard e numeri senza uso dello spazio e/o simboli.
+L'utente può modificare il nome assegnato automaticamente alla simulazione. Si consiglia di utilizzare caratteri standard e numeri senza spazi o simboli.
 
 <img src="../../.gitbook/assets/COAST_NAME.png" alt="" data-size="original">
 
@@ -40,25 +36,23 @@ L'utente può modificare il nome della simulaizone editando liberamente il nome 
 
 <summary>Definizione e caratterizzazione  dell'evento  Fluviale . "Fluvial Scenario" (1-RIVER)</summary>
 
-l primo step 1-RIVER richiede la localizzazione  e caratterizzazione in termini di intensità e durata dell'evento di rilascio fluviale che si intende simulare simulare.
+Il primo passo di 1-RIVER riguarda l'identificazione e la caratterizzazione della localizzazione, dell'intensità e della durata dell'evento di rilascio fluviale da simulare.
 
-L'utente ha la possibilità di generare e localizzare molteplici eventi di rilascio fluviale, che possono essere determinati da Rottura Arginale o Sormonto Arginale, attraverso l'attivazione del pulsante "ADD RIVER EVENT".
+Gli utenti possono generare e localizzare molteplici eventi di rilascio fluviale, determinati da Rottura Arginale o Sormonto Arginale, utilizzando il pulsante "ADD RIVER EVENT".
 
 <img src="../../.gitbook/assets/ADD_RIVER_EVENT.png" alt="" data-size="original">
 
 Dopo avere cliccato sul pulsante si attiva il Tool River che permette di definire sulla mappa i punti di rilascio fluviale.&#x20;
 
-L'aggiunta di un nuovo punto avviene cliccando sulla mappa con il tasto destro del Mouse.
+Una volta attivato, il Tool River permette agli utenti di definire i punti di rilascio fluviale sulla mappa:
 
-* NEW consente di aggiungere un nuovo punto e di definire successivamente il volume di acqua oggetto del rilscio puntuale
-* DELETE - Eliminare un singolo punto di rilascio
-* CLEAR - Eliminare tutti i punti di rilascio
+* **NEW**: Aggiunge un nuovo punto e consente di specificare il volume d'acqua per un rilascio puntuale.
+* **DELETE**: Elimina un singolo punto di rilascio.
+* **CLEAR**: Elimina tutti i punti di rilascio.
 
-Dopo avere aggiunto nel dominio di calcolo tutti i punti di rilascio Fluviale, cliccando sul pulsante BACK TO THE WIZARD, si ritorna alla finestra che riporta il numero totale dei punti definiti (che rappresentano le eventuali brecce o sormonti arginali) e il valore cumulato del volume rilasciato da tutti i punti definiti sulla mappa del dominio.
+Dopo aver aggiunto tutti i punti di rilascio fluviale nel dominio di calcolo, cliccando su "BACK TO THE WIZARD" gli utenti ritornano a una finestra di riepilogo. Questa finestra mostra il numero totale di punti definiti (rappresentanti eventuali brecce o sormonti arginali) e il volume totale rilasciato sull'area del dominio.
 
-Per tutti i punti generati e il corrispondente volume cumulato  l'utente deve definire la durata del rilascio che verrà utilizzata dal modello idrodinamico UNTRIM.
-
-La DURATA del Rilascio ("Total duration of the river event")  viene definita in ore (h) e rappresenta la durata del rilascio per tutti i punti definiti. Non è possibile definire durate specifiche per ogni punto di rilascio.
+Gli utenti devono definire la **Durata Totale dell'Evento Fluviale** per tutti i punti generati, utilizzata nel modello idrodinamico UNTRIM. La durata è definita in ore (h) e si applica uniformemente a tutti i punti di rilascio definiti. Non è permesso definire durate specifiche per singoli punti di rilascio.
 
 <img src="../../.gitbook/assets/1_RIVER.png" alt="" data-size="original">
 
@@ -68,13 +62,13 @@ La DURATA del Rilascio ("Total duration of the river event")  viene definita in 
 
 <summary>Vasche di Accumulo (2-STORAGE)</summary>
 
-Come misura di mitigazione dell'hazard la piattaforma SaferPlaces consente all'utente di inserire nel dominio di calcolo delle Vasche di Accumulo (Storage Tanks) che permettono di ridurre il volume di acqua che allaga una specifica area o sotto-bacino del dominio oggetto della simulazione.
+Nella piattaforma SaferPlaces, come misura per mitigare il rischio, è possibile inserire Vasche di Accumulo (Storage Tanks) nel dominio di calcolo. Queste vasche aiutano a ridurre il volume d'acqua che inonda una specifica area o sotto-bacino durante la simulazione.
 
-Gli Storage Tanks possono essere localizzato come elementi puntiformi mediante l'attivazione dello strumento “_Draw storage tank_”, presente sia nel Wizard che nella  [barra-superiore.md](../../saferplaces-interfaccia-gui-web/barra-superiore.md "mention").
+Gli Storage Tanks si possono posizionare come elementi puntiformi usando lo strumento "_Draw storage tank_", disponibile sia nel Wizard che nel pannello.
 
-Il tool di generazione delle Storage Tank (Vasche di Accumulo) si attiva cliccando sul Pulsante "NEW" e consente di localizzare le vasche e di associare a ciascuna vasca la capacità volumetrica in mc.
+Per generare una Storage Tank, cliccare su "NEW". Questo permette di posizionare le vasche e assegnare a ognuna la capacità volumetrica in m³.
 
-Nel riquadro denominato "Select Storage Tanks to simulate" l'utente ha la possibilità di selezionare e/o rimuvere le Vasche di Accumulo presenti nel dominio. Con il Pulsante "REMOVE ALL" si de-selezionano tutte le vasche presenti.
+Nel riquadro "Select Storage Tanks to simulate", l'utente può selezionare o rimuovere le Vasche di Accumulo presenti. Con "REMOVE ALL" si deselezionano tutte le vasche selezionate.
 
 <img src="../../.gitbook/assets/2_STORAGE_RIVER.png" alt="" data-size="original">
 
@@ -115,17 +109,22 @@ L'attivazione del modello di calcolo del Danno Economico procede spuntando il ch
 
 <summary>Definizione dei parametri del modello di calcolo</summary>
 
-Modello SaferPlaces - Nel caso si sia selezionato il modello di calcolo SaferPlaces non è necessario specificare ulteriori parametri di calcolo. Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")
+**Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non sono necessari ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente.
+
+Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")\
+
 
 <img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
 
-Modello UNTRIM - Nel caso si sia selezionato il modello idrodinamico [untrim.md](../modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") occorre specificare alcuni parametri molto importati di simulazione selezionando con gli slider i valori.
 
-* Durata della Simulazione in ore (h) - il valore da selezionare corrisponde alla durata dell'evento che si vuole simulare, ad esempio se l'evento di rilascio fluviale dura 2h la durata della simulazione deve essere maggiore o uguale alla durata dell'evento
-* Manning Coefficient (adim) - coefficiente di attrito di Manning che viene ipotizzato uniforme nel dominio di calcolo. Valore Consigliato 0.2
-* nl (m) - Dimensione della cella di calcolo quadrata definita come numero dei pixel in metri. Ad esempio se si seleziona 50 e il lidar del dominio ha una risoluzione di 2 m allora la dimensione della cella è pari a 100m. In questo caso nel caso di Lidar a risoluzione 1/2 si consigli un valore tra 20 e 50. La dimensione della cella di calcolo influisce sul numero totale delle celle di calcolo in funzione anche della estensione del dominio. Il numero totale influisce a sua volta sul tempo di calcolo. Si consiglia rimanere al di sotto delle 20000 celle nell'intero dominio per avere tempi di calcolo contenuti (3 minuti per ogni ora di simulazione )
-* Delta T - Passo di imntegrazione numerico (sec) - Si consiglia di selezionare il passo di integrazione pari a 6 secondi.
-* Ti - Time Shot Interval (min) - Qui si definisce l'intervallo temporale di produzione degli output
+
+**Modello UNTRIM:** Se si sceglie il modello idrodinamico UNTRIM, è fondamentale specificare diversi parametri di simulazione tramite gli slider:
+
+* **Durata della Simulazione (ore):** Selezionare una durata pari o superiore all'evento di pioggia; ad esempio, se la pioggia dura 2 ore, la simulazione deve essere di almeno 2 ore.
+* **Coefficiente di Manning (adimensionale):** Un coefficiente di attrito uniforme ipotizzato nel dominio di calcolo. Valore consigliato: 0.2.
+* **nl (m):** Dimensione della cella definita dal numero di pixel in metri. Per esempio, scegliendo 50 con una risoluzione Lidar di 2 m si ottiene una cella di 100 m. Per Lidar a risoluzione 1-2 m, si consigliano valori tra 20 e 50. La dimensione della cella influisce sul numero totale di celle, che a sua volta incide sul tempo di calcolo. Si consiglia di mantenere le celle sotto le 20.000 per tempi di calcolo gestibili (3 minuti per ogni ora di simulazione).
+* **Delta T - Passo di Integrazione Numerico (sec):** Si consiglia un passo di integrazione di 6 secondi.
+* **Ti - Intervallo di Tempo per gli Output (min):** Definire l'intervallo per la produzione degli output.
 
 <img src="../../.gitbook/assets/image (51).png" alt="" data-size="original">
 
@@ -139,15 +138,16 @@ Modello UNTRIM - Nel caso si sia selezionato il modello idrodinamico [untrim.md]
 
 <summary>Attivazione Calcolo del Danno Economico - DAMAGE</summary>
 
-Nella procedura guidata alla pagina "Model" è possibile attivare il calcolo del danno economico per ciascun edificio inserito.
+1. Tutti gli edifici sono considerati residenziali, utilizzando una curva di vulnerabilità residenziale.
+2. Valore dell'edificio fissato a 1000 euro/mq.
 
-Il calcolo del Danno Economico viene eseguito in prima analisi applicando le seguenti ipotesi:
+Il calcolo del danno economico viene eseguito inizialmente con le seguenti ipotesi:
 
-1. Tutti gli edifici cono considerati residenziali con un curva di vulnerabilità residenziale
-2.  Valore dell'edificio pari a 1000 euro/mq\
+Nella sezione "Model" della procedura guidata, è possibile attivare il calcolo del danno economico per ogni edificio inserito.
 
 
-    <figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+
+<img src="../../.gitbook/assets/image (49).png" alt="" data-size="original">
 
 \
 
@@ -172,7 +172,7 @@ Cliccando sul pulsante EDIT l'utente può attivare una casella di testo dove ins
 <summary>RUN SIMULAZIONE</summary>
 
 Cliccando sul pulsante RUN l'utente attiva l'esecuzione della simulazione creata.\
-Dopo l'avvio sul pannello Control Panel si aggiungerà l'esecuzione del processo attivato con indicazione dello stato di avanzamento.
+Dopo il lancio, il Pannello di Controllo visualizzerà l'esecuzione del processo con lo stato di avanzamento..
 
 <img src="../../.gitbook/assets/control_panel.png" alt="" data-size="original">\
 
