@@ -19,21 +19,11 @@ layout:
 
 # 📘 Descrizione delle funzioni satellitari
 
+Nell'ambito di un programma ESA In-Cubed,  SaferPlaces ha sviluppato nuove funzionalità in grado di analizzare e processare dati satellitari.&#x20;
 
+In particolare le nuove funzioni consentono alla piattaforma SaferPlaces di sfruttare algoritmi personalizzati basati sui prodotti  satellitari (Capella, Sentinel, ICEYE, Cosmo Sky Med) per fornire automaticamente i seguenti layers:
 
-A partire da settembre 2022, nell'ambito di un programma ESA In-Cubed, il gruppo di SaferPlaces sta lavorando per sviluppare e incorporare nella piattaforma nuove funzionalità in grado di integrare i dati satellitari. Il risultato consentirà a SaferPlaces di implementare algoritmi personalizzati basati sui prodotti SAR satellitari (Capella, Sentinel, ICEYE, Cosmo Sky Med) per fornire automaticamente i seguenti strati spaziali:
-
-●        Estensione della mappa delle acque alluvionali,
-
-●        Modelli digitali di elevazione ad alta risoluzione (DEM),
-
-●        Mappa dell'intensità delle precipitazioni.
-
-Le nuove funzionalità garantiranno la copertura globale della piattaforma, generando automaticamente gli strati geospaziali necessari come input per gli algoritmi di intelligence del rischio di alluvione, oltre a rafforzare la capacità della piattaforma di mappare in tempo quasi reale i pericoli di alluvione, con il fine di supportare la gestione delle emergenze e dei disastri in tempo reale.
-
-Esistono 3 strumenti starellitari:
-
-* [safer001.md](safer001.md "mention")
-* [safer002.md](safer002.md "mention")
-* [safer003.md](safer003.md "mention")
+* [safer001.md](safer001.md "mention") -Mappatura dell'estensione delle aree allagate in condisioni di post-evento
+* [safer002.md](safer002.md "mention") -Modelli digitali di elevazione ad alta risoluzione (DEM),&#x20;
+* [safer003.md](safer003.md "mention") -Mappa dell'intensità delle precipitazioni.
 

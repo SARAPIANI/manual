@@ -1,5 +1,5 @@
 ---
-description: Versione  v0.2.74 del 4/11/2024
+description: Versione  v0.2.160 del 03/01/2025
 cover: .gitbook/assets/Asset 10.jpg
 coverY: 0
 layout:

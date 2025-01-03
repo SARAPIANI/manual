@@ -1,10 +1,16 @@
 ---
-description: Estrazione automatica della maschera di acqua alluvionale
+description: >-
+  Estrazione automatica della maschera relativa all'estensione delle aree
+  allagate in condizione post-evento.
 ---
 
 # 🛠️ Safer001
 
-Lo strumento “_Satellite_” attiva una funzionalità sviluppata nell'ambito del progetto ESA InCubed, denominata Safer001, che consente all'utente di attivare la generazione di una maschera alluvionale sull'area già selezionata o su una nuova area geografica selezionabile dall'utente. Il pannello di apertura richiede all'utente di inserire i quattro parametri di input richiesti dal modulo Safer001:
+Attivanto sulla barra in alto Lo strumento “_Satellite_”  si attiva la funzione , denominata Safer001, che consente all'utente di generare automaticamente la  maschera delle aree allagate all'interno del dominio di calcolo attivato.&#x20;
+
+L'area allagata farà riferimento ad uno specifico evento temporale della durata di qualche giorno e verrà prodotta analizzando immagini sia SAR che Ottiche da Copernicus Sentinel e COSMO SKY MED.
+
+&#x20;Il pannello di apertura richiede all'utente di inserire i quattro parametri di input richiesti dal modulo Safer001:
 
 \- _from date_: data dell'evento di alluvione,
 
