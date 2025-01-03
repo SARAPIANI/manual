@@ -113,7 +113,7 @@ Le voci del bilancio idrologico includono:
 * **Spill Volume**: Volume in metri cubi che riempie i sotto-bacini a valle (Rosso) in caso di traboccamento.
 * **Water Volume**: Volume di acqua nella depressione, sempre minore o uguale al Bluespot Volume.
 * **Filling Percent %**: Percentuale di riempimento della depressione.
-* **UpStream IN Volume**: Volume di acqua in metri cubi proveniente dalle depressioni a monte (Verdi) che traboccano.
+* **UpStream IN Volume**: Volume di acqua in metri cubi proveniente dalle depressioni a monte (Verdi)
 
 
 
@@ -148,26 +148,6 @@ Nella [barra-laterale-sinistra.md](../saferplaces-interfaccia-gui-web/barra-late
 <img src="../.gitbook/assets/Bluespot_balance.png" alt="" data-size="original">
 
 </details>
-
-Fai clic su **Bluespots** per ulteriori informazioni.
-
-Lo strumento **Bluespots** è progettato per analizzare i risultati del modello. Si trova nel menu. Una volta attivato, seleziona l'opzione desiderata dal menu a tendina per procedere con l'analisi.
-
-Quando attivato, i layer del gruppo si illumineranno automaticamente. Muovi il mouse su diversi sotto-bacini per aprire una finestra specifica che mostra le voci del bilancio di massa. La mappa evidenzia i seguenti sotto-bacini:
-
-* **Bacini Verdi**: Contribuiscono volume al bluespot corrente (Blu).
-* **Bacini Rossi**: Ricevono volume dal bluespot corrente (Blu).
-
-Le voci del bilancio idrologico includono:
-
-* **Scenario**: Descrizione dello scenario.
-* **bluespot-d**: ID del sotto-bacino/depressione.
-* **Bluespot Volume**: Volume in metri cubi della depressione vuota.
-* **Rain Volume**: Volume di pioggia che riempie la depressione.
-* **Spill Volume**: Volume in metri cubi che riempie i sotto-bacini a valle (Rosso) in caso di traboccamento.
-* **Water Volume**: Volume di acqua nella depressione, sempre minore o uguale al Bluespot Volume.
-* **Filling Percent %**: Percentuale di riempimento della depressione.
-* **UpStream IN Volume**: Volume di acqua in metri cubi proveniente dalle depressioni a monte (Verdi) che traboccano.
 
 <details>
 
