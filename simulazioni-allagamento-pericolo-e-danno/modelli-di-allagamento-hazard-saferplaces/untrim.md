@@ -36,7 +36,13 @@ Le equazioni sopra citate vengono risolte numericamente. Le seguenti grandezze f
 
 &#x20;
 
-Quando il modello di calcolo UnTRIM viene utilizzato in modalità mono o bidimensionale (con uno strato z in direzione verticale), i risultati per _u,v_ and _C_ saranno i rispettivi valori mediati in profondità per la velocità della corrente e la concentrazione del tracciante \[11].&#x20;
+Quando il modello di calcolo UnTRIM viene utilizzato in modalità mono o bidimensionale (con uno strato z in direzione verticale), i risultati per _u,v_ and _C_ saranno i rispettivi valori mediati in profondità per la velocità della corrente e la concentrazione del tracciante .&#x20;
+
+Una descrizione dettagliata del modello UNTRIM è disponibile al seguente [link](https://wiki.baw.de/en/index.php/Mathematical_Model_UNTRIM) e alla seguente [pubblicazione scientifica](https://onlinelibrary.wiley.com/doi/10.1002/fld.4715).
+
+
+
+
 
 
 

@@ -32,6 +32,6 @@ L'algoritmo gerarchico “_Filling-&-Spilling”_ richiede i seguenti dati di in
 
 <summary>Bibliografia modello Safer RAIN</summary>
 
-@aggiornare per tutti i modelli
+Un elenco aggiornato delle pubblicazioni relative alla validazione ed applicazione dei modelli di SaferPlaces è disponibile al seguente [link](https://saferplaces.co/scientifically-proven-hazard-and-damage-modelling/)
 
 </details>
