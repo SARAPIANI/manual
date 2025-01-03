@@ -1,6 +1,6 @@
 # STEP 2 Edifici - Vettoriale ShapeFile
 
-In questo passo è possibile caricare lo shapefile della sagoma degli edifici (footprint) direttamente da Open Stree Map oppure caricare uno shapefile a disposizione dell'utente.
+È possibile importare lo shapefile della sagoma degli edifici (footprint) direttamente da OpenStreetMap o caricarne uno disponibile all'utente.
 
 
 

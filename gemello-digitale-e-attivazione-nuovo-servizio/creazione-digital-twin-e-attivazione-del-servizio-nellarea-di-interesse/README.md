@@ -19,7 +19,7 @@ layout:
 
 # 💻 Creazione Digital Twin e attivazione del servizio nell'area di interesse
 
-Cliccando sull'icona “_Create a project_” (Creare un progetto), l'utente attiva l'interfaccia guidata (Wizard) per l'attivazione del servizio e la generazione della Digital Twin dell'area identificata come di interesse.
+Cliccando sull'icona “_Create a project_” (Creare un progetto), si avvia l'interfaccia guidata, che assiste l'utente nell'attivazione del servizio e nella generazione del Digital Twin per l'area di interesse designata.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-10-09 at 23.33.07.png" alt=""><figcaption></figcaption></figure>
 

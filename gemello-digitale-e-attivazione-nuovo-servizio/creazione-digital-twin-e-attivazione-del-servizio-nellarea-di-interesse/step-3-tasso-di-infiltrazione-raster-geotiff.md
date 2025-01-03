@@ -1,6 +1,6 @@
 # STEP 3 Tasso di infiltrazione - Raster GeoTiff
 
-Il tasso di infiltrazione è determinato dalla classe dell'uso del suolo fornita dal layer ESA oppure da layer caricati dall'utente.
+Il tasso di infiltrazione è determinato dalla classe d'uso del suolo fornita dal layer ESA o dai layer caricati dall'utente.
 
 
 

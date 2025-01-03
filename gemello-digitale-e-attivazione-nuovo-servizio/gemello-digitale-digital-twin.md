@@ -19,7 +19,7 @@ layout:
 
 # 📔 Gemello Digitale - Digital Twin
 
-L'attivazione di un nuovo progetto o servizio sulla piattaforma Saferplaces, consiste nella generazione della  Digital Twin dell'area di interesse.&#x20;
+Per avviare un nuovo progetto o servizio sulla piattaforma Saferplaces, è necessario generare un Digital Twin dell'area di interesse.
 
 {% content-ref url="creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/" %}
 [creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse](creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/)
@@ -31,20 +31,20 @@ La Digital Twin è costituita dai seguenti dati geospaziali:
 
 <summary>Modello digitale del Terreno (DTM) - LIDAR</summary>
 
-La piattaforma SaferPlaces consente all'utente di scegliere tra diversi layer di DTM disponibili con diversa risoluzione spaziale.&#x20;
+La piattaforma SaferPlaces consente agli utenti di selezionare diversi strati DTM disponibili con varie risoluzioni spaziali.
 
-Nella fase di attivazione i layer DTM vengono ordinati in funzione della risoluzione proponendo secondo un ordine a risoluzione decrescente.
+Durante la fase di attivazione, i livelli DTM sono ordinati in ordine decrescente di risoluzione.
 
-L'utente può scegliere i DTM disponibili a partire da quelli a più alta risoluzione spaziale (LIDAR) fino ai prodotti regionali o nazionali con risoluzione più bassa.
+Gli utenti possono scegliere tra i DTM partendo dalla più alta risoluzione spaziale (LIDAR) fino a prodotti regionali o nazionali con risoluzione più bassa.
 
-Alternativamente, se l'utente dispone di dati DTM proprietari  può caricarle direttamente sulla piattaforma mediante l'opzione UPLOAD ed utilizzare il datate nella creazione della Digital Twin.\
-\
-Per sfruttare al meglio i DEM ad alta risoluzione, la piattaforma è stata ottimizzata per lavorare con i dati LIDAR.&#x20;
+In alternativa, se gli utenti dispongono dei propri dati DTM, possono caricarli direttamente utilizzando l'opzione UPLOAD e utilizzare i dati per creare il Gemello Digitale.
+
+La piattaforma è ottimizzata per lavorare con dati DEM LIDAR ad alta risoluzione.
 
 I DTM pre-caricati e disponibili a livello nazionale sono:
 
 * LIDAR Ministero dell'Ambiente - [Piano Nazionale di Telerilevament](https://sim.mase.gov.it/portalediaccesso/mappe/#/viewer/new)o
-* DTM [TINITALY](https://tinitaly.pi.ingv.it/Download\_Area1\_1.html)
+* DTM [TINITALY](https://tinitaly.pi.ingv.it/Download_Area1_1.html)
 * LIDAR Regione Emilia Romagna
 * LIDAR Regione Veneto
 * DTM Regionionali
@@ -58,10 +58,10 @@ I DTM pre-caricati e disponibili a livello nazionale sono:
 
 <summary>Footprint Edifici - Shapefile Vettoriale</summary>
 
-La sagoma (footprint) degli edifici costituisce un dato di input per il calcolo del Danno Economico associato agli eventi di allagamento e calcolati mediante[modello-di-danno-economico-safer\_damage.md](../simulazioni-allagamento-pericolo-e-danno/modello-di-danno-economico-safer\_damage.md "mention")
+Il contorno (footprint) degli edifici è un dato utilizzato per calcolare il Danno Economico associato agli eventi di allagamento.
 
-Si tratta di un layer geospazile di ti vettoriale shapefile che viene automaticamente acquisito dal data set di [Open Street Map](https://osmbuildings.org/?lat=43.94654\&lon=12.63075\&zoom=16.0\&tilt=30).\
-Alternativamente, se l'utente ha delle informazioni specifiche può caricarle direttamente sulla piattaforma attraverso l'opzione UPLOAD.
+Questo layer geospaziale, in formato vettoriale shapefile, viene acquisito automaticamente dal set di dati di [Open Street Map](https://osmbuildings.org/?lat=43.94654\&lon=12.63075\&zoom=16.0\&tilt=30).\
+In alternativa, l'utente può caricare informazioni specifiche direttamente sulla piattaforma utilizzando l'opzione UPLOAD.
 
 </details>
 
@@ -69,13 +69,13 @@ Alternativamente, se l'utente ha delle informazioni specifiche può caricarle di
 
 <summary>Tasso di infiltrazione</summary>
 
-Questo layer esprime la capacità di infiltrazione nel suolo che è associata alla classe di uso del suolo. In dettaglio un uso del suolo di tipo urbanizzato o industriale avrà un tasso di infiltrazione pari o vicino allo zero mentre un suolo agricolo o ad aree verdi avrà un tasso di inflitrazione pari o vicino ad 1.
+Questo layer rappresenta la capacità di infiltrazione del suolo, collegata alla classificazione dell'uso del suolo. In particolare, l'uso del suolo urbanizzato o industriale avrà un tasso di infiltrazione vicino allo zero, mentre il suolo agricolo o le aree verdi avranno un tasso vicino a uno.
 
-Nella fase di generazione della Digital Twin, Saferplaces utilizza come classificazione di uso del suolo il layer a 10 m fornito da ESA ([The European Space Agency (ESA) WorldCover 10 m 2021](https://esa-worldcover.org/)) .
+Nella creazione del Digital Twin, Saferplaces utilizza il layer di uso del suolo a 10 m fornito da ESA ([The European Space Agency (ESA) WorldCover 10 m 2021](https://esa-worldcover.org/)) .
 
 Per l'area della Regione Emilia Romagna si utilizza il mosaico dell'uso del suolo da CORINE LAND COVER.
 
-Anche per questo layer, nel caso in cui l'utente avesse a disposizione informazioni di maggiore dettaglio, è possibile mediante la funzione UPLOAD caricare lo shapefile vettoriale con le classi di uso del suolo.
+Se sono disponibili informazioni più dettagliate, gli utenti possono caricare uno shapefile vettoriale con le classi di uso del suolo utilizzando la funzione UPLOAD.
 
 \
 
@@ -86,14 +86,13 @@ Anche per questo layer, nel caso in cui l'utente avesse a disposizione informazi
 
 <summary>Litologia</summary>
 
-La  litologia del suolo in termini di composizione di classi tessiturali (Sand, Clay e Silt) influenza la capacità e velocità di infiltrazione dell'acqua sottraendone al run-off superficiale e quindi alla quota parte che contribuisce all'allagamento.
+La litologia del suolo, definita dalle classi tessiturali (Sabbia, Argilla e Limo), influisce sulla capacità e velocità di infiltrazione dell'acqua, riducendo così il run-off superficiale e contribuendo a mitigare gli allagamenti.
 
-Questa informazione è un dato di input al modello di infiltrazione di Green-Ampt implementato nei [modelli-di-allagamento-hazard-saferplaces](../simulazioni-allagamento-pericolo-e-danno/modelli-di-allagamento-hazard-saferplaces/ "mention").
+Questa informazione è un input per il modello di infiltrazione di Green-Ampt, implementato in strumenti specifici.
 
-Il dato tessiturale integrato nella piattaforma Saferplaces, è un dato con copertura globale e risoluzione spaziale a 100 m prodotto da [OpenLandMap](https://opengeohub.org/about-openlandmap/)
+Il dato tessiturale è integrato nella piattaforma Saferplaces, con copertura globale e risoluzione spaziale di 100 m, ed è fornito da [OpenLandMap](https://opengeohub.org/about-openlandmap/).
 
-Per l'area della Regione Emilia Romagna sono disponibili le classi tessiturali fornite dal [Servizio Geologico](https://mappegis.regione.emilia-romagna.it/gstatico/documenti/dati\_pedol/tessitura\_pianura.pdf) \
-Anche per questo layer, nel caso in cui l'utente avesse a disposizione informazioni di maggiore dettaglio, è possibile mediante la funzione UPLOAD caricare lo shapefile vettoriale con le classi di uso del suolo.
+Per la Regione Emilia Romagna, sono disponibili classi tessiturali fornite dal [Servizio Geologico](https://mappegis.regione.emilia-romagna.it/gstatico/documenti/dati_pedol/tessitura_pianura.pdf). Inoltre, se l'utente dispone di dati più dettagliati, può utilizzare la funzione UPLOAD per caricare uno shapefile vettoriale con le classi di uso del suolo.
 
 </details>
 
@@ -114,19 +113,17 @@ Le funzioni si processamento dei dati satellitari consentono di estrarre automat
 </details>
 
 {% hint style="danger" %}
-Ai fini della creazione del nuovo progetto e della Digital Twin, sono necessari come dati di input obbligatori il DTM e il "Footprint" degli Edifici.
+Per la creazione del nuovo progetto e del Digital Twin, i dati di input essenziali includono il DTM e il "Footprint" degli edifici.
 
-Il  DTM è l'input principale e cruciale richiesto dai modelli di pericolosità da alluvione SaferPlaces.
+Il DTM è l'input principale e cruciale richiesto dai modelli di pericolosità da alluvione di SaferPlaces.
 
-Il Wizard di attivazione chiede all'utente di selezionare tra i dati disponibili o di caricare mediante upload i dati a disposizione dell'utente per :
+Il wizard di attivazione richiede all'utente di selezionare tra i dati disponibili o di caricare i propri per:
 
 * DTM
 * EDIFICI
 * INFILTRAZIONE
 * LITOLOGIA
 
-I dati Climatici e le Immagini Satellitari vengono caricati in background nella attivazione del progetto.
-
-
+I dati climatici e le immagini satellitari vengono caricati in background durante l'attivazione del progetto.
 {% endhint %}
 

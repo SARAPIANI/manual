@@ -1,7 +1,7 @@
 # STEP 6 Crea e Finalizza il Progetto
 
-Nell'ultimo step della procedura di attivazione del servizio viene richiesto di assegnare un nome al progetto e di salvare il progetto costruito.\
-Dopo il salvataggio la piattaforma apre la [pagina-di-progetto-servizio.md](../../saferplaces-interfaccia-gui-web/pagina-di-progetto-servizio.md "mention")dove si vede l'aggiunta del nuovo progetto appena creato.
+Nel passaggio finale della procedura di attivazione del servizio, viene richiesto di assegnare un nome al progetto e di salvarlo.\
+Dopo il salvataggio, la piattaforma mostra l'aggiunta del nuovo progetto
 
 
 

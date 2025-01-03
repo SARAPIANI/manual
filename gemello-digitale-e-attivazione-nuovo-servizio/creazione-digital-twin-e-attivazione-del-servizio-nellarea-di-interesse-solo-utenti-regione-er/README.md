@@ -19,15 +19,15 @@ layout:
 
 # 💻 Creazione Digital Twin e attivazione del servizio nell'area di interesse - SOLO UTENTI REGIONE ER
 
-Cliccando sull'icona “_Create a project_” (Creare un progetto), l'utente attiva l'interfaccia guidata (Wizard) per l'attivazione del servizio e la generazione della Digital Twin dell'area identificata come di interesse.
+Cliccando sull'icona "_Create a project_", si avvia l'interfaccia guidata che aiuta ad attivare il servizio e a generare il Digital Twin per l'area designata di interesse.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-10-09 at 23.33.07.png" alt=""><figcaption></figcaption></figure>
 
-Per gli utenti della Protezione Civile della Regione Emilia Romagna che sono stati abilitati la procedura di attivazione del sarvizio Saferplaces segue un wizard semplificato che richiede unicamente la defizioni dell'area di interesse ed automaticamente acquisisce e pre-processa tutti i layer necessari alla generazione della Digital Twin ed alla attivazione del servizio.
+Per gli utenti della Protezione Civile della Regione Emilia-Romagna abilitati, la procedura di attivazione del servizio Saferplaces segue un wizard semplificato. Questo richiede soltanto la definizione dell'area di interesse e acquisisce automaticamente tutti i layer necessari alla generazione del Digital Twin e all'attivazione del servizio.
 
 <figure><img src="../../.gitbook/assets/RER_attivazione.png" alt=""><figcaption></figcaption></figure>
 
-L'utente deve esclusivamente definire un area di attiovazione attraverso due modalità:
+L'utente deve definire un'area di attivazione scegliendo una delle due modalità:
 
 * Selezione di un area rettangolare - cliccando sul pulsante SELECT BY AREA
 
@@ -39,7 +39,7 @@ L'utente deve esclusivamente definire un area di attiovazione attraverso due mod
 
 {% embed url="https://drive.google.com/open?id=1DUxdF0ODTFPlKxHPN54W5Qlxz6Rl9e3i&usp=drive_fs" %}
 
-Il Wizard automaticamente procede nei cinque passi per scaricare o selezionare  i layers di input che permetteranno attivare il nuovo progetto:
+Il Wizard procede automaticamente attraverso cinque passaggi per scaricare o selezionare i layer di input necessari per attivare il nuovo progetto:
 
 
 
@@ -56,7 +56,7 @@ Il Wizard automaticamente procede nei cinque passi per scaricare o selezionare  
 [step-6-crea-e-finalizza-il-progetto.md](../creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/step-6-crea-e-finalizza-il-progetto.md "mention")&#x20;
 
 {% hint style="success" %}
-Attivando nei diversi passi l'opzione  _**Upload è possibile caricare layer di propietà dell'utente.**_
+Attivando l'opzione _**Upload**_ nei diversi passaggi, è possibile caricare layer di proprietà dell'utente.
 {% endhint %}
 
 

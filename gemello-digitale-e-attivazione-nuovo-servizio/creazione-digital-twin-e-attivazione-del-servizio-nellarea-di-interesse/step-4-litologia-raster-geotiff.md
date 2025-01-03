@@ -1,6 +1,6 @@
 # STEP 4 Litologia - Raster GeoTiff
 
-La classificazione tessiturale caricata automaticamente dal layer di OpenLandMap oppure caricata manualmente dall'utente.
+Carica automaticamente la classificazione tessiturale dal layer di OpenLandMap oppure manualmente dall'utente
 
 
 

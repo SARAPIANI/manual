@@ -19,9 +19,9 @@ layout:
 
 # 💡 SaferPlaces Login
 
-> Una volta [ricevute le credenziali di accesso alla piattaforma](registrazione-e-attivazione-utente.md)  l'utente puo accedere al servizio inserendo le proprie credenziali (Username e password )  nella finestra di login.
->
-> Qualora si fossero dimenticate le credenziali è possibile recuperarle seguendo la procedura di recupero [#recupero-credenziali](saferplaces-login.md#recupero-credenziali "mention")
+> Una volta [ricevute le credenziali di accesso alla piattaforma](registrazione-e-attivazione-utente.md), per accedere al servizio, inserisci il tuo username e password nella finestra di login. Se hai dimenticato le [credenziali](saferplaces-login.md#recupero-credenziali), puoi recuperarle seguendo la procedura di recupero.
+
+
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Pagina di Log in</p></figcaption></figure>
 
