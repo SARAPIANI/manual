@@ -78,11 +78,11 @@ In questa sezione del Wizard l'utente ha la possibilità di&#x20;
 
 I modelli di allagamento Pluviale disponibili sono:&#x20;
 
-[safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer\_rain.md "mention") - Modello Raster-based filling and spilling
+[safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention") - Modello Raster-based filling and spilling
 
 [untrim.md](../modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") - Modello Idrodinamico 2D
 
-L'opzione di default è sempre il modello [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer\_rain.md "mention")
+L'opzione di default è sempre il modello [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")
 
 Nel caso si selezioni il modello [untrim.md](../modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") occorre definire i seguenti parametri "Settings" cliccando sul task dedicato.&#x20;
 
@@ -102,17 +102,25 @@ L'attivazione del modello di calcolo del Danno Economico procede spuntando il ch
 
 <summary>Definizione dei parametri del modello di calcolo</summary>
 
+Modello SaferPlaces - Nel caso si sia selezionato il modello di calcolo SaferPlaces non è necessario specificare ulteriori parametri di calcolo. Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")\
+
+
 <img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
 
-&#x20;Modello Saferplaces\
-\
+Modello UNTRIM - Nel caso si sia selezionato il modello idrodinamico [untrim.md](../modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") occorre specificare alcuni parametri molto importati di simulazione selezionando con gli slider i valori.
 
+* Durata della Simulazione in ore (h) - il valore da selezionare corrisponde alla durata dell'evento che si vuole simulare, ad esempio se l'evento pioggia dura 2h la durata della simulazione deve essere maggiore o uguale alla durata dell'evento
+* Manning Coefficient (adim) - coefficiente di attrito di Manning che viene ipotizzato uniforme nel dominio di calcolo. Valore Consigliato 0.2
+* nl (m) - Dimensione della cella di calcolo quadrata definita come numero dei pixel in metri. Ad esempio se si seleziona 50 e il lidar del dominio ha una risoluzione di 2 m allora la dimensione della cella è pari a 100m. In questo caso nel caso di Lidar a risoluzione 1/2 si consigli un valore tra 20 e 50. La dimensione della cella di calcolo influisce sul numero totale delle celle di calcolo in funzione anche della estensione del dominio. Il numero totale influisce a sua volta sul tempo di calcolo. Si consiglia rimanere al di sotto delle 20000 celle nell'intero dominio per avere tempi di calcolo contenuti (3 minuti per ogni ora di simulazione )
+* Delta T - Passo di imntegrazione numerico (sec) - Si consiglia di selezionare il passo di integrazione pari a 6 secondi.
+* Ti - Time Shot Interval (min) - Qui si definisce l'intervallo temporale di produzione degli output
+*
 
 ![](<../../.gitbook/assets/image (51).png>)
 
 ![](<../../.gitbook/assets/image (52).png>)
 
-Modello UNTRIM
+
 
 </details>
 
@@ -178,3 +186,8 @@ Dopo l'avvio sul pannello Control Panel si aggiungerà l'esecuzione del processo
 
 
 {% embed url="https://drive.google.com/open?id=1uAfjjMyb7TrVAHRHZaQdvY-CEnOUBUjG&usp=drive_fs" %}
+
+## #Esempio di simulazione pluviale - Modello UNTRIM
+
+
+
