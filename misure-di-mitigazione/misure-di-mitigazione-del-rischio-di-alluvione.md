@@ -21,11 +21,13 @@ layout:
 
 Saferplaces può essere utilizzato per testare l'efficacia di progetti e misure di mitigazione del rischio di allagamento sia in termini di riduzione dell'Hazard come estensione e magnitudo (profondità dell'acqua) sia in termini di protezioni passive e riduzione della vulnerabilità degli asset esposti.
 
+<figure><img src="../.gitbook/assets/climate-resilience-models-cities.svg" alt=""><figcaption></figcaption></figure>
+
 Le misure di mitigazione che si possono simulare sono:
 
 ●        [#barriere-fisiche](misure-di-mitigazione-del-rischio-di-alluvione.md#barriere-fisiche "mention"), come dune, argini o muri che possono contenere e limitare la portata delle inondazioni, in particolare quelle di origine fluviale e costiera
 
-●      [#vasche-di-accumulo](misure-di-mitigazione-del-rischio-di-alluvione.md#vasche-di-accumulo "mention")
+●      [#vasche-di-accumulo](misure-di-mitigazione-del-rischio-di-alluvione.md#vasche-di-accumulo "mention") ovvero vasche di stoccaggio dell'acqua in grado di ridurre il volume di acqua che allaga un sotto bacino.
 
 ●        [#sistemi-di-drenaggio-urbano-sostenibile-suds](misure-di-mitigazione-del-rischio-di-alluvione.md#sistemi-di-drenaggio-urbano-sostenibile-suds "mention"), come aree verdi, bacini di infiltrazione, uso del suolo permeabile, tetti verdi, zone umide urbane.
 
@@ -42,6 +44,8 @@ Le barriere fisiche possono essere aggiunte al dominio di calcolo con lo **strum
 Le barriere fisiche editate sono simulate modificando la quota del DTM e quindi determinano un effetto di contenimento dei fenomeni di allagamento.
 
 &#x20;L'effetto è particolarmente evidente nella simulazione delle inondazioni costiere, dove barriere continue come le dune artificiali, se applicate lungo la linea di costa, possono proteggere una porzione significativa dell'entroterra.
+
+<img src="../.gitbook/assets/barriere.jpg.webp" alt="" data-size="original">
 
 
 
@@ -61,7 +65,7 @@ L'utente utilizzando l**o strumento "**_**Draw storage tank**_**" della** [barra
 
 Misure come vasche di accumulo "Storage Tank" possono essere simulate riducendo il volume d'acqua che scorre lungo la superficie e sono particolarmente rilevanti per le simulazioni di inondazioni pluviali.&#x20;
 
-
+<img src="../.gitbook/assets/underground_tank.jpg" alt="" data-size="original">
 
 </details>
 
