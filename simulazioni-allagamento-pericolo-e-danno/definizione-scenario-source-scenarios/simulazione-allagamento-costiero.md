@@ -1,6 +1,6 @@
 # 🏖️ Simulazione Allagamento Costiero
 
-In questa sezione “_Coastal scenario_” (scenario costiero) l'utente ha  la possibilità di definire e generare uno scenario di allagamento di tipo costiero determinato da uno specifico livello del mare (extreme sea level) in metri ottenuto dalla combinazione dei seguenti elementi:
+INella sezione “_Coastal scenario_” (scenario costiero) gli utenti possono creare e definire uno scenario di allagamento costiero basato su un livello del mare estremo specifico, misurato in metri, combinando i seguenti fattori:
 
 * Livello di Marea
 * Livello da Storm Surge
@@ -49,13 +49,13 @@ In questo secondo step, l'utente definisce la pendenzza della spiaggia espressa 
 
 <summary>Barriere Fisiche (3-BARRIERS)</summary>
 
-In questo step l'utente ha la possibilità di inserire sulla mappa del dominio di calcolo attivato una o più barriere fisiche con l'obiettivo di arginare eventuali scenari di allagamento costiero.
+In questo step, l'utente può inserire una o più barriere fisiche sulla mappa del dominio di calcolo per arginare scenari di allagamento costiero.
 
-L'attivazione del tool di editing delle barriere fisiche avviene cliccando sul pulsante "NEW", il tool che si  attiverà sarà lo strumento “_Draw Barrier_”, lo stesso presente nella [barra-superiore.md](../../saferplaces-interfaccia-gui-web/barra-superiore.md "mention").
+Per attivare lo strumento di modifica delle barriere fisiche, cliccare sul pulsante "NEW". Si avvierà lo strumento "_Draw Barrier_, lo stesso presente nella [barra-superiore.md](../../saferplaces-interfaccia-gui-web/barra-superiore.md "mention").
 
 <img src="../../.gitbook/assets/3_BARRIERS.png" alt="" data-size="original">
 
-Una volta attivato il tool, l'utente agendo con il tasto destro potra aggiungere una nuova barriera selezionenado il tag NEW dal menu a tendina che appare.
+Una volta attivato, l'utente può aggiungere una nuova barriera cliccando con il tasto destro e selezionando "NEW" dal menu a tendina.
 
 
 

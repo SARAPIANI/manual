@@ -19,20 +19,23 @@ layout:
 
 # 🛠️ Visualizzazione dei risultati
 
-In pochi minuti dopo l'esecuzione della simulazione, l'utente può  visualizzare i risultati che consistono in due tipi di layer spaziali:&#x20;
+Pochi minuti dopo l'esecuzione della simulazione, l'utente può visualizzare i risultati, che si dividono in due tipi di layer spaziali:
 
-* un layer Raster GeoTiff relativo all'estensione e alla  profondità dell'acqua delle aree allagate (in blu)&#x20;
-* un layer Vettoriale ShapeFile relativo al calcolo del  danno economico per ciascun edificio interessato dall'allagamento. Questo layer appare unicamente se si è attivato il calcolo del danno nel Wizard di generazione della simulazione.
+* Un layer Raster GeoTiff che rappresenta sia l'estensione che la profondità dell'acqua delle aree allagate (in blu)
+* Un layer vettoriale ShapeFile per il calcolo del danno economico per ciascun edificio allagato. Questo layer appare solo se si è attivato il calcolo del danno nel Wizard di simulazione.
 
-I due layer geospaziali sono caricati automaticamente nella [barra-laterale-destra.md](../saferplaces-interfaccia-gui-web/barra-laterale-destra.md "mention"), in categorie specifiche corrispondenti alla loro fonte di pericolo: “_RAINFALL, RIVER, COASTAL_ o _DAMAGE_”.&#x20;
+I due layer geospaziali vengono caricati automaticamente nelle categorie specifiche che corrispondono alla loro fonte di pericolo: “_RAINFALL, RIVER, COASTAL_ o _DAMAGE_”.&#x20;
 
 Il nome del Layer generato contiene il nome della simulaizone definito in fase di generazione dello scenario con davanti i suffissi:
 
 * WD\_ Nel caso dei layer di allagamento
 * DMG\_ Nel caso dei layer di Danno Economico
 
-Per le simulazoni generate con il modello [untrim.md](../simulazioni-allagamento-pericolo-e-danno/modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") vengono generate una serie di output raster layer con la frequenza di stampa definita nei parametri di simulazione. Tutti gli output generati vengono raggruppati in un sottogruppo avente il nome della simulazione (es. WD\_RIVER164153), i raster fanno riferimento ai diversi istanti di tempo in secondi  (es. @600 sec = 10 mins).\
-Nello stesso gruppo vengono prodotti anche il raster dei valori massimi (.max) della Water Depth (m) ed un vettoriale dell'estensione massima dell'allagamento (.mask).
+#### Generazione di Output dai Modelli di Simulazione
+
+I modelli di simulazione producono una serie di layer raster di output a intervalli definiti dai parametri di simulazione. Questi output sono organizzati in sottogruppi con il nome della simulazione (es. WD\_RIVER164153). I raster corrispondono a punti temporali specifici in secondi (es. @600 sec equivale a 10 minuti).
+
+Nello stesso gruppo sono inclusi anche un raster dei valori massimi di profondità dell'acqua (.max) e un file vettoriale che rappresenta l'estensione massima dell'allagamento (.mask).
 
 
 
@@ -47,7 +50,7 @@ Nel gruppo dei risultati di UNTRIM è possibile cliccando sull'icona play  gener
 {% embed url="https://drive.google.com/file/d/177rNt7j1K2sMjnBojQ5gIxDvJ0NhT8F6/view?usp=sharing" %}
 
 {% hint style="warning" %}
-Gli output generati possono essere scaricati come file raster Geotiff oppure come vettoriale shapefile semplicemente cliccando con il tasto destro sul layer di interesse e poi su "_Export_" (Esporta).
+Puoi scaricare gli output generati come file raster Geotiff o shapefile vettoriali. Basta fare clic con il tasto destro sul layer desiderato e selezionare "_Export_" (Esporta).
 {% endhint %}
 
 &#x20;Inoltre i seguenti  strumenti disponibili nella [barra-superiore.md](../saferplaces-interfaccia-gui-web/barra-superiore.md "mention") aiutano a esaminare i risultati ottenuti:&#x20;
@@ -60,7 +63,7 @@ Gli output generati possono essere scaricati come file raster Geotiff oppure com
 
 ![](<../.gitbook/assets/image (10).png>)
 
-lo strumento "_Section_" consente di ottenere facilmente la profondità dell'acqua per una sezione specifica, semplicemente tracciando una linea su qualsiasi layer di profondità dell'acqua. Nella parte inferiore dello schermo si apre una nuova finestra in cui viene visualizzata la sezione trasversale dell'area selezionata.
+Lo strumento "Sezione" ti consente di determinare facilmente la profondità dell'acqua per un'area specifica tracciando una linea su qualsiasi layer di profondità dell'acqua. Una nuova finestra in basso sullo schermo mostra la sezione trasversale dell'area selezionata.
 
 ![](<../.gitbook/assets/image (11).png>)
 
@@ -72,11 +75,11 @@ lo strumento "_Section_" consente di ottenere facilmente la profondità dell'acq
 
 ![](<../.gitbook/assets/image (14).png>)
 
-Lo Strumento “_Identify_ " (Identifica), presente nella [barra-superiore.md](../saferplaces-interfaccia-gui-web/barra-superiore.md "mention") permette di visualizzare le informazioni in corrispondenza di un punto di interrogazione per i layer geospaziali attivi sulla [barra-laterale-destra.md](../saferplaces-interfaccia-gui-web/barra-laterale-destra.md "mention")
+Lo Strumento _Identifica_ fornisce informazioni in un punto specifico per i layer geospaziali attivi.
 
-Il valore che si può visualizzare è ralitivo alla profondità dell'acqua per il layer di allagamento attivo e/o il danno economico per l'edificio selezionato relativamente ai layer di danno economico attivi.
+&#x20;Per il layer di allagamento attivo, mostra la profondità dell'acqua; per gli edifici selezionati, visualizza i danni economici basati sui layer di danno economico attivi  sulla [barra-laterale-destra.md](../saferplaces-interfaccia-gui-web/barra-laterale-destra.md "mention")
 
-I risultati di questo strumento appariranno nel corrispondente pannello delle attività sulla sinistra.
+I risultati appariranno nel pannello delle attività corrispondente sulla sinistra.
 
 <img src="../.gitbook/assets/image (13).png" alt="" data-size="original">
 
@@ -91,6 +94,32 @@ I risultati di questo strumento appariranno nel corrispondente pannello delle at
 <summary>"<em>Bluespots</em>" </summary>
 
 ![](<../.gitbook/assets/image (15).png>)
+
+
+
+Lo strumento **Bluespots** è progettato per analizzare i risultati del modello. Si trova nel menu. Una volta attivato, seleziona l'opzione desiderata dal menu a tendina per procedere con l'analisi.
+
+Quando attivato, i layer del gruppo si illumineranno automaticamente. Muovi il mouse su diversi sotto-bacini per aprire una finestra specifica che mostra le voci del bilancio di massa. La mappa evidenzia i seguenti sotto-bacini:
+
+* **Bacini Verdi**: Contribuiscono volume al bluespot corrente (Blu).
+* **Bacini Rossi**: Ricevono volume dal bluespot corrente (Blu).
+
+Le voci del bilancio idrologico includono:
+
+* **Scenario**: Descrizione dello scenario.
+* **bluespot-d**: ID del sotto-bacino/depressione.
+* **Bluespot Volume**: Volume in metri cubi della depressione vuota.
+* **Rain Volume**: Volume di pioggia che riempie la depressione.
+* **Spill Volume**: Volume in metri cubi che riempie i sotto-bacini a valle (Rosso) in caso di traboccamento.
+* **Water Volume**: Volume di acqua nella depressione, sempre minore o uguale al Bluespot Volume.
+* **Filling Percent %**: Percentuale di riempimento della depressione.
+* **UpStream IN Volume**: Volume di acqua in metri cubi proveniente dalle depressioni a monte (Verdi) che traboccano.
+
+
+
+
+
+
 
 Lo strumento "_Bluespots_" è un tool di analisi specifica dei risultati relativi a [simulazione-allagamento-pluviale.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-pluviale.md "mention") ottenute dal modello [safer\_rain.md](../simulazioni-allagamento-pericolo-e-danno/modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention").&#x20;
 
@@ -119,6 +148,26 @@ Nella [barra-laterale-sinistra.md](../saferplaces-interfaccia-gui-web/barra-late
 <img src="../.gitbook/assets/Bluespot_balance.png" alt="" data-size="original">
 
 </details>
+
+Fai clic su **Bluespots** per ulteriori informazioni.
+
+Lo strumento **Bluespots** è progettato per analizzare i risultati del modello. Si trova nel menu. Una volta attivato, seleziona l'opzione desiderata dal menu a tendina per procedere con l'analisi.
+
+Quando attivato, i layer del gruppo si illumineranno automaticamente. Muovi il mouse su diversi sotto-bacini per aprire una finestra specifica che mostra le voci del bilancio di massa. La mappa evidenzia i seguenti sotto-bacini:
+
+* **Bacini Verdi**: Contribuiscono volume al bluespot corrente (Blu).
+* **Bacini Rossi**: Ricevono volume dal bluespot corrente (Blu).
+
+Le voci del bilancio idrologico includono:
+
+* **Scenario**: Descrizione dello scenario.
+* **bluespot-d**: ID del sotto-bacino/depressione.
+* **Bluespot Volume**: Volume in metri cubi della depressione vuota.
+* **Rain Volume**: Volume di pioggia che riempie la depressione.
+* **Spill Volume**: Volume in metri cubi che riempie i sotto-bacini a valle (Rosso) in caso di traboccamento.
+* **Water Volume**: Volume di acqua nella depressione, sempre minore o uguale al Bluespot Volume.
+* **Filling Percent %**: Percentuale di riempimento della depressione.
+* **UpStream IN Volume**: Volume di acqua in metri cubi proveniente dalle depressioni a monte (Verdi) che traboccano.
 
 <details>
 
