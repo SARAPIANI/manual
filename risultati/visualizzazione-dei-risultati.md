@@ -95,32 +95,6 @@ I risultati appariranno nel pannello delle attività corrispondente sulla sinist
 
 ![](<../.gitbook/assets/image (15).png>)
 
-
-
-Lo strumento **Bluespots** è progettato per analizzare i risultati del modello. Si trova nel menu. Una volta attivato, seleziona l'opzione desiderata dal menu a tendina per procedere con l'analisi.
-
-Quando attivato, i layer del gruppo si illumineranno automaticamente. Muovi il mouse su diversi sotto-bacini per aprire una finestra specifica che mostra le voci del bilancio di massa. La mappa evidenzia i seguenti sotto-bacini:
-
-* **Bacini Verdi**: Contribuiscono volume al bluespot corrente (Blu).
-* **Bacini Rossi**: Ricevono volume dal bluespot corrente (Blu).
-
-Le voci del bilancio idrologico includono:
-
-* **Scenario**: Descrizione dello scenario.
-* **bluespot-d**: ID del sotto-bacino/depressione.
-* **Bluespot Volume**: Volume in metri cubi della depressione vuota.
-* **Rain Volume**: Volume di pioggia che riempie la depressione.
-* **Spill Volume**: Volume in metri cubi che riempie i sotto-bacini a valle (Rosso) in caso di traboccamento.
-* **Water Volume**: Volume di acqua nella depressione, sempre minore o uguale al Bluespot Volume.
-* **Filling Percent %**: Percentuale di riempimento della depressione.
-* **UpStream IN Volume**: Volume di acqua in metri cubi proveniente dalle depressioni a monte (Verdi)
-
-
-
-
-
-
-
 Lo strumento "_Bluespots_" è un tool di analisi specifica dei risultati relativi a [simulazione-allagamento-pluviale.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-pluviale.md "mention") ottenute dal modello [safer\_rain.md](../simulazioni-allagamento-pericolo-e-danno/modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention").&#x20;
 
 Esso è presente  nella [barra-superiore.md](../saferplaces-interfaccia-gui-web/barra-superiore.md "mention") ed una volta attivato richiede di selezionare nel menu a tendina il  [#nome-simulazione](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-costiero.md#nome-simulazione "mention")per la [simulazione-allagamento-pluviale.md](../simulazioni-allagamento-pericolo-e-danno/definizione-scenario-source-scenarios/simulazione-allagamento-pluviale.md "mention") in cui si vuole procedere nell'analisi.
