@@ -19,7 +19,7 @@ layout:
 
 # 🚀 Pagina My Projects
 
-L'accesso via LOGIN consente di accedere alla pagina personale che contiene sia i progetti generati in passto che la possibilità di generare nuove aree/città su cui attivare la Piattaforma Saferplaces
+L'accesso via LOGIN consente di accedere alla pagina personale che contiene sia i progetti generati in precedenza che la possibilità di generare nuove aree/città su cui attivare la Piattaforma Saferplaces
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-09 at 22.55.19.png" alt=""><figcaption><p>Pagina Personale - My Projects</p></figcaption></figure>
 
