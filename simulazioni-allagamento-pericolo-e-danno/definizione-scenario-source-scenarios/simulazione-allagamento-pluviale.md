@@ -1,6 +1,8 @@
 # 🌧️ Simulazione Allagamento Pluviale
 
-In questa sezione si descrive la procedura per l'esecuzione di una simulazione di allagamento di tipo Pluviale, ovvero determinato da un evento meteorico di pioggia intensa e in genere di breve durata che genera una forte criticità nella gestione del deflusso delle acque superficiali con allagamenti in aree urbane particolarmente intensi in zone depresse (sottopassi).
+#### Procedura per la Simulazione di Allagamenti Pluviali
+
+Questa sezione descrive il processo per eseguire una simulazione di allagamento pluviale, causato da eventi meteorici di pioggia intensa e di breve durata. Tali eventi generano criticità nella gestione del deflusso delle acque superficiali, causando allagamenti particolarmente intensi in aree urbane depresse, come sottopassi.
 
 ## RAINFALL - SIMULAZIONE ALLAGAMENTO PLUVIALE
 
@@ -12,7 +14,7 @@ Il Wizard offre una procedura guidata dove l'utente definisce i seguenti dati e 
 
 <summary>Nome Simulazione</summary>
 
-L'utente può modificare il nome della simulaizone editando liberamente il nome che viene assegnato automaticamente. Si consiglia di utilizzare un nome composto da caratteri standard e numeri senza uso dello spazio e/o simboli.
+L'utente può modificare il nome assegnato automaticamente alla simulazione. Si consiglia di utilizzare caratteri standard e numeri senza spazi o simboli.
 
 <img src="../../.gitbook/assets/COAST_NAME.png" alt="" data-size="original">
 
@@ -22,18 +24,18 @@ L'utente può modificare il nome della simulaizone editando liberamente il nome 
 
 <details>
 
-<summary>Definizione e caratterizzazione  dell'evento Pluviale -“<em>Pluvial scenario</em>” (1-RAIN)</summary>
+<summary>Definizione e caratterizzazione dell'Evento Pluviale -“<em>Pluvial scenario</em>” (1-RAIN)</summary>
 
-Il primo step 1-RAIN richiede la definizione e caratterizzazione in termini di intensità e durata dell'evento meteorico di pioggia che si intende simulare.
+IIl primo step, 1-RAIN, richiede la definizione e caratterizzazione dell'evento di pioggia da simulare in termini di intensità e durata.
 
-L'utente ha la possibilità di definire l'intensità di pioggia in mm che intende simulare in tre diverse modailità:
+L'utente può definire l'intensità di pioggia in mm in tre modi diversi:
 
-1. Evento Pluviale di intensità (mm) UNIFORM su tutta l'area del dominio attivata
-2. Evento Pluviale localizzato in una sottoarea con intensità (mm) NON-UNIFORM(draw) associata ad un poligono che disegnato dall'utente attraverso  lo strumento “_Rain_” presente nella [barra-superiore.md](../../saferplaces-interfaccia-gui-web/barra-superiore.md "mention")
-3. Evento Pluviale di intensità (mm) NON UNIFORM (upload) caricando un file raster formato GeoTIFF - ad esempio fornito da prodotto RADAR METEO o MODELLO METEO FORECAST
-4. Evento Pluviale con intensità (mm) generato dal prodotto satellitare @@@@
+1. **Uniforme su tutta l'area del dominio attivata**: Intensità (mm) costante su tutta l'area.
+2. **Localizzata in una sottoarea con intensità non uniforme (disegno)**: Intensità variabile associata a un poligono disegnato dall'utente tramite lo strumento “_Rain_”  presente nella [barra-superiore.md](../../saferplaces-interfaccia-gui-web/barra-superiore.md "mention")
+3. **Non uniforme (caricamento)**: Intensità variabile caricando un file raster in formato GeoTIFF, ad esempio da un prodotto RADAR METEO o MODELLO METEO FORECAST.
+4. **Generato da prodotto satellitare**: Intensità (mm) determinata da un prodotto satellitare specifico.
 
-L'utente ha la possibilità di definire la durata temporale in ore (h) dell'evento meteo pluviale che intende simulare mediate il box "Total duration of the rainfall event"&#x20;
+L'utente può definire la durata dell'evento pluviale in ore (h) tramite il box "Total duration of the rainfall event".
 
 <img src="../../.gitbook/assets/1_RAIN.png" alt="" data-size="original">
 
@@ -43,9 +45,11 @@ L'utente ha la possibilità di definire la durata temporale in ore (h) dell'even
 
 <summary>Modello Infiltrazione del terreno (2-INFILTRATION)</summary>
 
-L'utente ha la possibilità di attivare il modulo di infiltrazione nel terreno nell'esecuzione della simulazione.
 
-Il Modulo di infiltrazione è basato sul Modello Green-Ampt ed utilizza come dato di input i layer definiti nello [step-3-tasso-di-infiltrazione-raster-geotiff.md](../../gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/step-3-tasso-di-infiltrazione-raster-geotiff.md "mention") e [step-4-litologia-raster-geotiff.md](../../gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/step-4-litologia-raster-geotiff.md "mention")
+
+Gli utenti possono attivare il modulo di infiltrazione nel terreno durante l'esecuzione della simulazione.
+
+Il Modulo di Infiltrazione si basa sul Modello Green-Ampt e utilizza dati di input dai layer definiti nello [step-3-tasso-di-infiltrazione-raster-geotiff.md](../../gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/step-3-tasso-di-infiltrazione-raster-geotiff.md "mention") e [step-4-litologia-raster-geotiff.md](../../gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/step-4-litologia-raster-geotiff.md "mention")
 
 <img src="../../.gitbook/assets/2_INFILTRATION.png" alt="" data-size="original">
 
@@ -55,13 +59,13 @@ Il Modulo di infiltrazione è basato sul Modello Green-Ampt ed utilizza come dat
 
 <summary>Vasche di Accumulo (3-STORAGE)</summary>
 
-Come misura di mitigazione dell'hazard la piattaforma SaferPlaces consente all'utente di inserire nel dominio di calcolo delle Vasche di Accumulo (Storage Tanks) che permettono di ridurre il volume di acqua che allaga una specifica area o sotto-bacino del dominio oggetto della simulazione.
+Nella piattaforma SaferPlaces, come misura per mitigare il rischio, è possibile inserire Vasche di Accumulo (Storage Tanks) nel dominio di calcolo. Queste vasche aiutano a ridurre il volume d'acqua che inonda una specifica area o sotto-bacino durante la simulazione.
 
-Gli Storage Tanks possono essere localizzato come elementi puntiformi mediante l'attivazione dello strumento “_Draw storage tank_”, presente sia nel Wizard che nella  [barra-superiore.md](../../saferplaces-interfaccia-gui-web/barra-superiore.md "mention").
+Gli Storage Tanks si possono posizionare come elementi puntiformi usando lo strumento "_Draw storage tank_", disponibile sia nel Wizard che nel pannello.
 
-Il tool di generazione delle Storage Tank (Vasche di Accumulo) si attiva cliccando sul Pulsante "NEW" e consente di localizzare le vasche e di associare a ciascuna vasca la capacità volumetrica in mc.
+Per generare una Storage Tank, cliccare su "NEW". Questo permette di posizionare le vasche e assegnare a ognuna la capacità volumetrica in m³.
 
-Nel riquadro denominato "Select Storage Tanks to simulate" l'utente ha la possibilità di selezionare e/o rimuvere le Vasche di Accumulo presenti nel dominio. Con il Pulsante "REMOVE ALL" si de-selezionano tutte le vasche presenti.
+Nel riquadro "Select Storage Tanks to simulate", l'utente può selezionare o rimuovere le Vasche di Accumulo presenti. Con "REMOVE ALL" si deselezionano tutte le vasche selezionate.
 
 <img src="../../.gitbook/assets/3_STORAGE.png" alt="" data-size="original">
 
@@ -102,19 +106,22 @@ L'attivazione del modello di calcolo del Danno Economico procede spuntando il ch
 
 <summary>Definizione dei parametri del modello di calcolo</summary>
 
-Modello SaferPlaces - Nel caso si sia selezionato il modello di calcolo SaferPlaces non è necessario specificare ulteriori parametri di calcolo. Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")\
+**Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non sono necessari ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente
+
+. Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")\
 
 
 <img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
 
-Modello UNTRIM - Nel caso si sia selezionato il modello idrodinamico [untrim.md](../modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") occorre specificare alcuni parametri molto importati di simulazione selezionando con gli slider i valori.
 
-* Durata della Simulazione in ore (h) - il valore da selezionare corrisponde alla durata dell'evento che si vuole simulare, ad esempio se l'evento pioggia dura 2h la durata della simulazione deve essere maggiore o uguale alla durata dell'evento
-* Manning Coefficient (adim) - coefficiente di attrito di Manning che viene ipotizzato uniforme nel dominio di calcolo. Valore Consigliato 0.2
-* nl (m) - Dimensione della cella di calcolo quadrata definita come numero dei pixel in metri. Ad esempio se si seleziona 50 e il lidar del dominio ha una risoluzione di 2 m allora la dimensione della cella è pari a 100m. In questo caso nel caso di Lidar a risoluzione 1/2 si consigli un valore tra 20 e 50. La dimensione della cella di calcolo influisce sul numero totale delle celle di calcolo in funzione anche della estensione del dominio. Il numero totale influisce a sua volta sul tempo di calcolo. Si consiglia rimanere al di sotto delle 20000 celle nell'intero dominio per avere tempi di calcolo contenuti (3 minuti per ogni ora di simulazione )
-* Delta T - Passo di imntegrazione numerico (sec) - Si consiglia di selezionare il passo di integrazione pari a 6 secondi.
-* Ti - Time Shot Interval (min) - Qui si definisce l'intervallo temporale di produzione degli output
-*
+
+**Modello UNTRIM:** Se si sceglie il modello idrodinamico UNTRIM, è fondamentale specificare diversi parametri di simulazione tramite gli slider:
+
+* **Durata della Simulazione (ore):** Selezionare una durata pari o superiore all'evento di pioggia; ad esempio, se la pioggia dura 2 ore, la simulazione deve essere di almeno 2 ore.
+* **Coefficiente di Manning (adimensionale):** Un coefficiente di attrito uniforme ipotizzato nel dominio di calcolo. Valore consigliato: 0.2.
+* **nl (m):** Dimensione della cella definita dal numero di pixel in metri. Per esempio, scegliendo 50 con una risoluzione Lidar di 2 m si ottiene una cella di 100 m. Per Lidar a risoluzione 1-2 m, si consigliano valori tra 20 e 50. La dimensione della cella influisce sul numero totale di celle, che a sua volta incide sul tempo di calcolo. Si consiglia di mantenere le celle sotto le 20.000 per tempi di calcolo gestibili (3 minuti per ogni ora di simulazione).
+* **Delta T - Passo di Integrazione Numerico (sec):** Si consiglia un passo di integrazione di 6 secondi.
+* **Ti - Intervallo di Tempo per gli Output (min):** Definire l'intervallo per la produzione degli output.
 
 ![](<../../.gitbook/assets/image (51).png>)
 
@@ -128,17 +135,14 @@ Modello UNTRIM - Nel caso si sia selezionato il modello idrodinamico [untrim.md]
 
 <summary>Attivazione Calcolo del danno economico - DAMAGE</summary>
 
-Nella procedura guidata alla pagina "Model" è possibile attivare il calcolo del danno economico per ciascun edificio inserito.
+Nella sezione "Model" della procedura guidata, è possibile attivare il calcolo del danno economico per ogni edificio inserito.
 
+Il calcolo del danno economico viene eseguito inizialmente con le seguenti ipotesi:
 
+1. Tutti gli edifici sono considerati residenziali, utilizzando una curva di vulnerabilità residenziale.
+2. Valore dell'edificio fissato a 1000 euro/mq.
 
-Il calcolo del Danno Economico viene eseguito in prima analisi applicando le seguenti ipotesi:
-
-1. Tutti gli edifici cono considerati residenziali con un curva di vulnerabilità residenziale
-2.  Valore dell'edificio pari a 1000 euro/mq\
-
-
-    <figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<img src="../../.gitbook/assets/image (49).png" alt="" data-size="original">
 
 
 
@@ -159,7 +163,7 @@ Cliccando sul pulsante EDIT l'utente può attivare una casella di testo dove ins
 <summary>RUN SIMULAZIONE</summary>
 
 Cliccando sul pulsante RUN l'utente attiva l'esecuzione della simulazione creata.\
-Dopo l'avvio sul pannello Control Panel si aggiungerà l'esecuzione del processo attivato con indicazione dello stato di avanzamento.
+Dopo il lancio, il Pannello di Controllo visualizzerà l'esecuzione del processo con lo stato di avanzamento.
 
 <img src="../../.gitbook/assets/control_panel.png" alt="" data-size="original">
 

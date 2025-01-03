@@ -43,17 +43,17 @@ Il Wizard procede automaticamente attraverso cinque passaggi per scaricare o sel
 
 
 
-[step-1-dtm-rer-raster-geotiff.md](step-1-dtm-rer-raster-geotiff.md "mention") Modello digitale del terreno&#x20;
+[step-1-dtm-raster-geotiff.md](step-1-dtm-raster-geotiff.md "mention") Modello digitale del terreno&#x20;
 
-[step-2-edifici-rer-vettoriale-shapefile.md](step-2-edifici-rer-vettoriale-shapefile.md "mention")&#x20;
+[step-2-edifici-vettoriale-shapefile.md](step-2-edifici-vettoriale-shapefile.md "mention")&#x20;
 
-[step-3-tasso-di-infiltrazione-rer-raster-geotiff.md](step-3-tasso-di-infiltrazione-rer-raster-geotiff.md "mention")
+[step-3-tasso-di-infiltrazione-raster-geotiff.md](step-3-tasso-di-infiltrazione-raster-geotiff.md "mention")
 
-[step-4-litologia-rer-raster-geotiff.md](step-4-litologia-rer-raster-geotiff.md "mention")
+[step-4-litologia-raster-geotiff.md](step-4-litologia-raster-geotiff.md "mention")
 
-[step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali-rest-service.md](step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali-rest-service.md "mention")
+[step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali.md](step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali.md "mention")
 
-[step-6-crea-e-finalizza-il-progetto-rer.md](step-6-crea-e-finalizza-il-progetto-rer.md "mention")
+[step-6-crea-e-finalizza-il-progetto.md](step-6-crea-e-finalizza-il-progetto.md "mention")
 
 {% hint style="success" %}
 Attivando l'opzione _**Upload**_ nei diversi passaggi, è possibile caricare layer di proprietà dell'utente.
