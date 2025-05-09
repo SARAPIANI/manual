@@ -20,7 +20,7 @@ layout:
 
 # 👋 MANUALE SAFERPLACES PLATFORM
 
-## Introduzione @
+## Introduzione
 
 [SaferPlaces](https://www.saferplaeces.co) è una piattaforma cloud di nuova generazione che si distingue nel panorama delle soluzioni tecnologiche per la gestione del rischio alluvionale.&#x20;
 
