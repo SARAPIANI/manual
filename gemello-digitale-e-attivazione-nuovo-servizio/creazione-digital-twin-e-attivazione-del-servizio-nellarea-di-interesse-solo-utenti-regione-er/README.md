@@ -25,6 +25,14 @@ Cliccando sull'icona "_Create a project_", si avvia l'interfaccia guidata che ai
 
 Per gli utenti della Protezione Civile della Regione Emilia-Romagna abilitati, la procedura di attivazione del servizio Saferplaces segue un wizard semplificato. Questo richiede soltanto la definizione dell'area di interesse e acquisisce automaticamente tutti i layer necessari alla generazione del Digital Twin e all'attivazione del servizio.
 
+Nell'header in alto di fianco al logo di SaferPlaces è presenta una casella di ricerca che può essere utilizzata per cercare e zoomare su:
+
+* località e comuni
+* indirizzi  - icona globo
+* bacini idrografici - icona layer
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 Sono state sviluppate 2 diverse modalità di attivazione della piattaforma SaferPlaces per una specifica area di interesse (AOI).\
 La prima modalità attraverso la defizione di un rettangolo, selezionado SELECT BY AREA
 
@@ -32,7 +40,7 @@ La prima modalità attraverso la defizione di un rettangolo, selezionado SELECT 
 
 La seconda modalità invece mediante la selezione di uno o più bacini idrografici
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/RER_attivazione.png" alt=""><figcaption></figcaption></figure>
 
