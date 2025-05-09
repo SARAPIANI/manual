@@ -28,11 +28,11 @@ Per gli utenti della Protezione Civile della Regione Emilia-Romagna abilitati, l
 Sono state sviluppate 2 diverse modalità di attivazione della piattaforma SaferPlaces per una specifica area di interesse (AOI).\
 La prima modalità attraverso la defizione di un rettangolo, selezionado SELECT BY AREA
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Select by Area</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Select by Area</p></figcaption></figure>
 
 La seconda modalità invece mediante la selezione di uno o più bacini idrografici
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/RER_attivazione.png" alt=""><figcaption></figcaption></figure>
 
@@ -52,7 +52,7 @@ Sul pannello di destra sono elencati i layers che possono essere visualizzati an
 
 Alcuni layers fanno riferimento a servizi GIS REST della Regione Emilia-Romagna.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Il Wizard procede automaticamente attraverso cinque passaggi per scaricare o selezionare i layer di input necessari per attivare il nuovo progetto:
 

@@ -4,6 +4,10 @@ icon: pen-ruler
 
 # Barra superiore
 
+Nell'header supriore di fianco al logo SaferPlaces è presente una casella per la ricerca degli indirizzi e località.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 Nella barra superiore sono presenti molti strumenti, come mostrato nella figura sottostante e descritti in tabella.
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Strumenti della barra superiore</p></figcaption></figure>
