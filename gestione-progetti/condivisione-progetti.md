@@ -8,3 +8,4 @@ Per completare la condivisione occorre cliccare sulla freccia di invio in alto
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://drive.google.com/file/d/1UxmHlrOSHH2ayKgOUL9A8ZX-PrrSwNv0/view?usp=sharing" %}
