@@ -21,6 +21,8 @@ layout:
 
 Per avviare un nuovo progetto o servizio sulla piattaforma Saferplaces, è necessario generare un Digital Twin dell'area di interesse.
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Digital Replica </p></figcaption></figure>
+
 {% content-ref url="creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/" %}
 [creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse](creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/)
 {% endcontent-ref %}

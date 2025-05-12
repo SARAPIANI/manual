@@ -30,6 +30,12 @@
   * [STEP 5 Layer Geospaziali aggiuntivi - raster e vettoriali - REST Service](gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali.md)
   * [STEP 6 Crea e Finalizza il Progetto RER](gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-6-crea-e-finalizza-il-progetto.md)
 
+***
+
+* [Gestione Progetti](gestione-progetti/README.md)
+  * [Condivisione Progetti](gestione-progetti/condivisione-progetti.md)
+  * [Page 1](gestione-progetti/page-1.md)
+
 ## 📐 Saferplaces - Interfaccia GUI Web
 
 * [💻 Pagina di Progetto/Servizio](saferplaces-interfaccia-gui-web/pagina-di-progetto-servizio.md)
