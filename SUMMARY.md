@@ -33,7 +33,8 @@
 ***
 
 * [Gestione Progetti](gestione-progetti/README.md)
-  * [Page 1](gestione-progetti/page-1.md)
+  * [Rinomina Progetto](gestione-progetti/rinomina-progetto.md)
+  * [Duplica Progetto](gestione-progetti/duplica-progetto.md)
   * [Condivisione Progetti](gestione-progetti/condivisione-progetti.md)
 
 ## 📐 Saferplaces - Interfaccia GUI Web

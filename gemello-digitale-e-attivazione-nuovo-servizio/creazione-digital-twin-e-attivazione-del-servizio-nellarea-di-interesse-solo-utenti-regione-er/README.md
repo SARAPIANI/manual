@@ -40,7 +40,7 @@ La prima modalità attraverso la defizione di un rettangolo, selezionado SELECT 
 
 La seconda modalità invece mediante la selezione di uno o più bacini idrografici
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/RER_attivazione.png" alt=""><figcaption></figcaption></figure>
 

@@ -14,7 +14,7 @@ Questi includono vari progetti attivati su specifiche aree o città, consentendo
 
 Cliccando sull'icona del progetto appena creato, l'utente accede all'ambiente di lavoro specifico per quel progetto. Così facendo, avrà accesso a tutte le funzionalità e gli strumenti necessari per iniziare. La figura seguente mostra l'interfaccia principale della piattaforma dopo l'accesso al progetto.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Interfaccia grafica per lavorare in un progetto creato</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Interfaccia grafica per lavorare in un progetto creato</p></figcaption></figure>
 
 {% hint style="info" %}
 L'applicazione web è composta da:
