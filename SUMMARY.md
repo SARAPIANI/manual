@@ -33,8 +33,8 @@
 ***
 
 * [Gestione Progetti](gestione-progetti/README.md)
-  * [Condivisione Progetti](gestione-progetti/condivisione-progetti.md)
   * [Page 1](gestione-progetti/page-1.md)
+  * [Condivisione Progetti](gestione-progetti/condivisione-progetti.md)
 
 ## 📐 Saferplaces - Interfaccia GUI Web
 
