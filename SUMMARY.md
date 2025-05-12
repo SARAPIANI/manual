@@ -32,7 +32,7 @@
 
 ***
 
-* [Gestione Progetti](gestione-progetti/README.md)
+* [⚡ Gestione Progetti](gestione-progetti/README.md)
   * [Rinomina Progetto](gestione-progetti/rinomina-progetto.md)
   * [Duplica Progetto](gestione-progetti/duplica-progetto.md)
   * [Condivisione Progetti](gestione-progetti/condivisione-progetti.md)

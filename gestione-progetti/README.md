@@ -1,4 +1,4 @@
-# Gestione Progetti
+# ⚡ Gestione Progetti
 
 Una volta volta generato un porgetto è possibile procedere nelle seguenti attività di gestione:
 
