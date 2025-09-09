@@ -13,7 +13,7 @@ Cliccando sull'icona "_Create a project_", si avvia l'interfaccia guidata che ai
 
 <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Create a new project</p></figcaption></figure>
 
-## Attivazione del servizio nell' Area di Interesse
+## Attivazione del servizio: definizione dell'area di interesse
 
 Per gli utenti di ADBPO abilitati, la procedura di attivazione del servizio SaferPlaces segue un wizard semplificato. Questo richiede soltanto la definizione dell'area di interesse e acquisisce automaticamente tutti i layer necessari alla generazione del Digital Twin e all'attivazione del servizio.
 
@@ -49,7 +49,7 @@ L'utente deve quindi definire un'area di attivazione scegliendo una delle due mo
 
 {% embed url="https://drive.google.com/open?id=1DUxdF0ODTFPlKxHPN54W5Qlxz6Rl9e3i&usp=drive_fs" %}
 
-Sul pannello di destra sono elencati i layers a disposizione dell'area di interesse, che possono essere visualizzati anche nella fase di attivazione dell'AOI. Alcuni layers fanno riferimento a dati forniti da ADBPO.&#x20;
+Sul pannello di destra sono elencati i layers disponibili nell'area di interesse, che possono essere visualizzati anche nella fase di attivazione. Alcuni layers fanno riferimento a dati forniti da ADBPO.&#x20;
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -62,6 +62,8 @@ Tra i layer a disposizione è presente anche il PGRA aggiornato al 2024.
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
+
+## Attivazione del servizio: creazione del gemello digitale
 
 Una volta definita l'AOI, un Wizard procede automaticamente attraverso cinque passaggi per scaricare o selezionare i layer di input necessari per attivare il nuovo progetto:
 
