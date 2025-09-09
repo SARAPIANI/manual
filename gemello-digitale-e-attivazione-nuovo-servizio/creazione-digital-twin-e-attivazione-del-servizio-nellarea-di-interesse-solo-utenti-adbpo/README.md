@@ -43,7 +43,7 @@ L'utente deve quindi definire un'area di attivazione scegliendo una delle due mo
 
 * Selezione di un area rettangolare - cliccando sul pulsante SELECT BY AREA
 
-{% embed url="https://drive.google.com/open?id=1DTjOK-KAVcO-ovOr8cD2M7-8ttYuPgsy&usp=drive_fs" %}
+{% embed url="https://drive.google.com/file/d/1Npvhh6wTVoxKSO-62jHGrcUODyuw_D-i/view?usp=sharing" %}
 
 * Selezionare uno o più province - cliccando sul pulsante SELECT BY BASIN
 
@@ -63,7 +63,7 @@ Tra i layer a disposizione è presente anche il PGRA aggiornato al 2024.
 
 
 
-Il Wizard procede automaticamente attraverso cinque passaggi per scaricare o selezionare i layer di input necessari per attivare il nuovo progetto:
+Una volta definita l'AOI, un Wizard procede automaticamente attraverso cinque passaggi per scaricare o selezionare i layer di input necessari per attivare il nuovo progetto:
 
 [step-1-dtm-adbpo-raster-geotiff.md](step-1-dtm-adbpo-raster-geotiff.md "mention") Modello digitale del terreno&#x20;
 
