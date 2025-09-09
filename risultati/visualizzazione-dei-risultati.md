@@ -47,7 +47,7 @@ Puoi scaricare gli output generati come file raster Geotiff o shapefile vettoria
 
 <summary>Section  - Sezione Trasversale</summary>
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 Lo strumento "Sezione" ti consente di determinare facilmente la profondità dell'acqua per un'area specifica tracciando una linea su qualsiasi layer di profondità dell'acqua. Una nuova finestra in basso sullo schermo mostra la sezione trasversale dell'area selezionata.
 

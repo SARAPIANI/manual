@@ -8,4 +8,4 @@ A questo punto la piattaforma genera una duplica del progetto con il nome del pr
 
 L'utente potrà poi rinominare a piacere il progetto come descritto in [rinomina-progetto.md](rinomina-progetto.md "mention")
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>

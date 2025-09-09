@@ -13,6 +13,8 @@ Cliccando sull'icona "_Create a project_", si avvia l'interfaccia guidata che ai
 
 <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Create a new project</p></figcaption></figure>
 
+## Attivazione del servizio nell' Area di Interesse
+
 Per gli utenti di ADBPO abilitati, la procedura di attivazione del servizio SaferPlaces segue un wizard semplificato. Questo richiede soltanto la definizione dell'area di interesse e acquisisce automaticamente tutti i layer necessari alla generazione del Digital Twin e all'attivazione del servizio.
 
 Nell'header in alto di fianco al logo di SaferPlaces è presenta una casella di ricerca che può essere utilizzata per cercare e zoomare su:
@@ -21,23 +23,23 @@ Nell'header in alto di fianco al logo di SaferPlaces è presenta una casella di 
 * indirizzi  - icona globo
 * bacini idrografici - icona layer
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 Sono state sviluppate 2 diverse modalità di attivazione della piattaforma SaferPlaces per una specifica area di interesse (AOI): SELECT BY BASIN e SELECT BY AREA.&#x20;
 
-In entrambi i casi è possibile selezionare la risoluzione a 2m o 1m.
+In entrambi i casi è possibile selezionare la risoluzione a 2 oppure 1 metro.
 
-La prima modalità si basa sulla selezione di uno o più province, tramite il pulsante SELECT BY BASIN. Basta cliccare con il mouse sulla provincia di interesse oppure tenere premuto il pulsante Shift per selezionoi multiple.
+La prima modalità si basa sulla selezione di uno o più province, tramite il pulsante SELECT BY BASIN. Basta cliccare con il mouse sulla provincia di interesse oppure tenere premuto il pulsante Shift per selezioni multiple.
 
 <figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Select by Basin</p></figcaption></figure>
 
-La seconda modalità invece consente di attivare l'AOI attraverso la definizione di un rettangolo, selezionando SELECT BY AREA. Per disegnare il rettangolo nell'ambiente di mappatura basta tenere premuto Shift e cliccare il tasto sinistro del mouse.
+La seconda modalità invece consente di attivare l'AOI attraverso la definizione di un rettangolo, selezionando SELECT BY AREA. Per disegnare il rettangolo nell'ambiente di mappatura basta tenere premuto Shift e il tasto sinistro del mouse fino a disegnare un rettangolo che copre l'area di interesse.
 
 <figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>Select by Area</p></figcaption></figure>
 
-L'utente deve definire un'area di attivazione scegliendo una delle due modalità:
+L'utente deve quindi definire un'area di attivazione scegliendo una delle due modalità:
 
 * Selezione di un area rettangolare - cliccando sul pulsante SELECT BY AREA
 
@@ -47,31 +49,33 @@ L'utente deve definire un'area di attivazione scegliendo una delle due modalità
 
 {% embed url="https://drive.google.com/open?id=1DUxdF0ODTFPlKxHPN54W5Qlxz6Rl9e3i&usp=drive_fs" %}
 
-Sul pannello di destra sono elencati i layers a disposizione dell'area di interesse, che possono essere visualizzati anche nella fase di attivazione dell'AOI.
+Sul pannello di destra sono elencati i layers a disposizione dell'area di interesse, che possono essere visualizzati anche nella fase di attivazione dell'AOI. Alcuni layers fanno riferimento a dati forniti da ADBPO.&#x20;
 
-Alcuni layers fanno riferimento a dati forniti da ADBPO.&#x20;
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+Esempio di layer disponibile: Stazioni.
 
-Nella costruzione del LIDAR sono stati presi in considerazione i dati con miglior risoluzione e quelli più aggiornati.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-09 120221.png" alt=""><figcaption><p>Layer Stazioni</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Quadri d'unione per la costruzione del LIDAR</p></figcaption></figure>
+Tra i layer a disposizione è presente anche il PGRA aggiornato al 2024.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 Il Wizard procede automaticamente attraverso cinque passaggi per scaricare o selezionare i layer di input necessari per attivare il nuovo progetto:
 
-[step-1-dtm-raster-geotiff.md](../creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-1-dtm-raster-geotiff.md "mention") Modello digitale del terreno&#x20;
+[step-1-dtm-adbpo-raster-geotiff.md](step-1-dtm-adbpo-raster-geotiff.md "mention") Modello digitale del terreno&#x20;
 
-[step-2-edifici-vettoriale-shapefile.md](../creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-2-edifici-vettoriale-shapefile.md "mention")&#x20;
+[step-2-edifici-adbpo-vettoriale-shapefile.md](step-2-edifici-adbpo-vettoriale-shapefile.md "mention")&#x20;
 
-[step-3-tasso-di-infiltrazione-raster-geotiff.md](../creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-3-tasso-di-infiltrazione-raster-geotiff.md "mention")
+[step-3-tasso-di-infiltrazione-adbpo-raster-geotiff.md](step-3-tasso-di-infiltrazione-adbpo-raster-geotiff.md "mention")
 
-[step-4-litologia-raster-geotiff.md](../creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-4-litologia-raster-geotiff.md "mention")
+[step-4-litologia-adbpo-raster-geotiff.md](step-4-litologia-adbpo-raster-geotiff.md "mention")
 
-[step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali.md](../creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali.md "mention")
+[step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali-adbpo-rest-service.md](step-5-layer-geospaziali-aggiuntivi-raster-e-vettoriali-adbpo-rest-service.md "mention")
 
-[step-6-crea-e-finalizza-il-progetto.md](../creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse-solo-utenti-regione-er/step-6-crea-e-finalizza-il-progetto.md "mention")
+[step-6-crea-e-finalizza-il-progetto-adbpo.md](step-6-crea-e-finalizza-il-progetto-adbpo.md "mention")
 
 {% hint style="success" %}
 Attivando l'opzione _**Upload**_ nei diversi passaggi, è possibile caricare layer di proprietà dell'utente.

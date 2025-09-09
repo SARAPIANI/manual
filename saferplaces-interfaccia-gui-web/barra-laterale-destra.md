@@ -30,7 +30,7 @@ I layers geospaziali del progetto sono organizzati nei seguenti gruppi di layers
 
 Facendo clic con il pulsante destro del mouse su ciascun layer o relativo gruppo , l'utente può attivare alcune funzioni utili elencate nella figura&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Funzioni layer barra destra</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Funzioni layer barra destra</p></figcaption></figure>
 
 In particolare è possibile:
 

@@ -6,6 +6,6 @@ Un volta individuato il progetto che si vuole condividere, si clicca sui 3 punti
 
 Per completare la condivisione occorre cliccare sulla freccia di invio in alto
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://drive.google.com/file/d/1UxmHlrOSHH2ayKgOUL9A8ZX-PrrSwNv0/view?usp=sharing" %}

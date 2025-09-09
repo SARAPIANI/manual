@@ -6,4 +6,4 @@ Si clicca sui 3 puntini in alto a destra e si seleziona il menu RENAME.
 
 Nella finestra che appare si cambia il nome e si conferma con il tasto CONFIRM
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>

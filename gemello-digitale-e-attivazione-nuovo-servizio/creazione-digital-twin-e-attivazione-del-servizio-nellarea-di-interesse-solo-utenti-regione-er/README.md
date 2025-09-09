@@ -17,16 +17,16 @@ Nell'header in alto di fianco al logo di SaferPlaces è presenta una casella di 
 * indirizzi  - icona globo
 * bacini idrografici - icona layer
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Sono state sviluppate 2 diverse modalità di attivazione della piattaforma SaferPlaces per una specifica area di interesse (AOI).\
 La prima modalità attraverso la definizione di un rettangolo, selezionando SELECT BY AREA
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Select by Area</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Select by Area</p></figcaption></figure>
 
 La seconda modalità invece mediante la selezione di uno o più bacini idrografici
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/RER_attivazione.png" alt=""><figcaption></figcaption></figure>
 
@@ -46,7 +46,7 @@ Sul pannello di destra sono elencati i layers che possono essere visualizzati an
 
 Alcuni layers fanno riferimento a servizi GIS REST della Regione Emilia-Romagna.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Il Wizard procede automaticamente attraverso cinque passaggi per scaricare o selezionare i layer di input necessari per attivare il nuovo progetto:
 
