@@ -1,27 +1,13 @@
 ---
 cover: ../../.gitbook/assets/Asset 10.jpg
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 💻 Creazione Digital Twin e attivazione del servizio nell'area di interesse - SOLO UTENTI REGIONE ER
 
 Cliccando sull'icona "_Create a project_", si avvia l'interfaccia guidata che aiuta ad attivare il servizio e a generare il Digital Twin per l'area designata di interesse.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-09 at 23.33.07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption><p>Create a new project</p></figcaption></figure>
 
 Per gli utenti della Protezione Civile della Regione Emilia-Romagna abilitati, la procedura di attivazione del servizio Saferplaces segue un wizard semplificato. Questo richiede soltanto la definizione dell'area di interesse e acquisisce automaticamente tutti i layer necessari alla generazione del Digital Twin e all'attivazione del servizio.
 
@@ -34,7 +20,7 @@ Nell'header in alto di fianco al logo di SaferPlaces è presenta una casella di 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Sono state sviluppate 2 diverse modalità di attivazione della piattaforma SaferPlaces per una specifica area di interesse (AOI).\
-La prima modalità attraverso la defizione di un rettangolo, selezionado SELECT BY AREA
+La prima modalità attraverso la definizione di un rettangolo, selezionando SELECT BY AREA
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Select by Area</p></figcaption></figure>
 
