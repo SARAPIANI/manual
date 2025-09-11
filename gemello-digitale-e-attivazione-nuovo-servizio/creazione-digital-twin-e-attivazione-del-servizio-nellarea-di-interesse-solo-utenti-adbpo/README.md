@@ -9,9 +9,14 @@ coverY: 0
 Accedere alla piattaforma tramite il link: [test.saferplaces.co](http://test.saferplaces.co/)
 {% endhint %}
 
-Cliccando sull'icona "_Create a project_", si avvia l'interfaccia guidata che aiuta ad attivare il servizio e a generare il Digital Twin per l'area designata di interesse.
+Cliccando sull'icona "_Create a project_", si avvia l'interfaccia che aiuta ad attivare il servizio e a generare il Digital Twin per l'area designata di interesse.
 
 <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Create a new project</p></figcaption></figure>
+
+A questo punto i due passi principali da seguire per attivare il servizio sono:
+
+1. Definizione dell'area di interesse
+2. Creazione del gemello digitale
 
 ## Definizione dell'area di interesse
 
@@ -27,29 +32,20 @@ Nell'header in alto di fianco al logo di SaferPlaces è presenta una casella di 
 
 
 
-Sono state sviluppate 2 diverse modalità di attivazione della piattaforma SaferPlaces per una specifica area di interesse (AOI): SELECT BY BASIN e SELECT BY AREA.&#x20;
+Sono state sviluppate 2 diverse modalità di attivazione della piattaforma SaferPlaces per una specifica area di interesse (AOI):&#x20;
 
-In entrambi i casi è possibile selezionare la risoluzione a 2 oppure 1 metro.
+1. SELECT BY BASIN&#x20;
+2. SELECT BY AREA
+
+In entrambi i casi è possibile selezionare la risoluzione a 2 metri oppure 1 metro.
 
 La prima modalità si basa sulla selezione di uno o più province, tramite il pulsante SELECT BY BASIN. Basta cliccare con il mouse sulla provincia di interesse oppure tenere premuto il pulsante Shift per selezioni multiple.
 
 <figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Select by Basin</p></figcaption></figure>
 
-La seconda modalità invece consente di attivare l'AOI attraverso la definizione di un rettangolo, selezionando SELECT BY AREA. Per disegnare il rettangolo nell'ambiente di mappatura basta tenere premuto Shift e il tasto sinistro del mouse fino a disegnare un rettangolo che copre l'area di interesse.
+La seconda modalità invece consente di attivare l'AOI attraverso la definizione di un'area rettangolare, cliccando sul pulsante SELECT BY AREA. Per disegnare il rettangolo nell'ambiente di mappatura basta tenere premuto il tasto Shift e il tasto sinistro del mouse fino a disegnare un rettangolo che copre l'area di interesse.
 
 <figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>Select by Area</p></figcaption></figure>
-
-L'utente deve quindi definire un'area di attivazione scegliendo una delle due modalità:
-
-* Selezione di un area rettangolare - cliccando sul pulsante SELECT BY AREA
-
-{% embed url="https://drive.google.com/file/d/1Npvhh6wTVoxKSO-62jHGrcUODyuw_D-i/view?usp=sharing" %}
-
-* Selezionare uno o più province - cliccando sul pulsante SELECT BY BASIN
-
-(Rifare il video - bug nel download Sand)
-
-{% embed url="https://drive.google.com/file/d/1WmXkOjzjqkZnH492uy9MUCWzY4IPvjQE/view?usp=sharing" %}
 
 Sul pannello di destra sono elencati i layers disponibili nell'area di interesse, che possono essere visualizzati anche nella fase di attivazione. Alcuni layers fanno riferimento a dati forniti da ADBPO.&#x20;
 
@@ -64,6 +60,18 @@ Tra i layer a disposizione è presente anche il PGRA aggiornato al 2024.
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
+
+### Video d'sempio per selezionare l'area di interesse
+
+L'utente deve quindi definire un'area di attivazione scegliendo una delle due modalità:
+
+* Selezionare uno o più province - cliccando sul pulsante SELECT BY BASIN
+
+
+
+* Selezione di un area rettangolare - cliccando sul pulsante SELECT BY AREA
+
+{% embed url="https://drive.google.com/file/d/1Npvhh6wTVoxKSO-62jHGrcUODyuw_D-i/view?usp=sharing" %}
 
 ## Creazione del gemello digitale
 
