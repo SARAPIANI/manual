@@ -47,7 +47,7 @@ La seconda modalità invece consente di attivare l'AOI attraverso la definizione
 
 <figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>Select by Area</p></figcaption></figure>
 
-Sul pannello di destra sono elencati i layers disponibili nell'area di interesse, che possono essere visualizzati anche nella fase di attivazione. Alcuni layers fanno riferimento a dati forniti da ADBPO.&#x20;
+Sul pannello di destra sono elencati i layers disponibili nell'area di interesse, che possono essere visualizzati anche nella fase di attivazione. Alcuni layers fanno riferimento a dati forniti da ADBPO.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,13 +61,13 @@ Tra i layer a disposizione è presente anche il PGRA aggiornato al 2024.
 
 
 
-### Video d'sempio per selezionare l'area di interesse
+### Video d'esempio per selezionare l'area di interesse
 
 L'utente deve quindi definire un'area di attivazione scegliendo una delle due modalità:
 
 * Selezionare uno o più province - cliccando sul pulsante SELECT BY BASIN
 
-
+{% embed url="https://drive.google.com/file/d/1yCMOzzcrirc7Ik7EC5N399a5gdjTX5D0/view?usp=drive_link" %}
 
 * Selezione di un area rettangolare - cliccando sul pulsante SELECT BY AREA
 
