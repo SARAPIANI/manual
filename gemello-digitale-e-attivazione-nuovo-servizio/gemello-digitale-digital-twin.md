@@ -1,6 +1,27 @@
 ---
 cover: ../.gitbook/assets/Asset 10.jpg
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 📔 Gemello Digitale - Digital Twin
@@ -35,10 +56,9 @@ I DTM pre-caricati e disponibili a livello nazionale sono:
 * DTM [TINITALY](https://tinitaly.pi.ingv.it/Download_Area1_1.html)
 * LIDAR Regione Emilia Romagna
 * LIDAR Regione Veneto
-* DTM Regionionali
+* DTM Regionali
 
-\
-
+<br>
 
 </details>
 
@@ -65,8 +85,7 @@ Per l'area della Regione Emilia Romagna si utilizza il mosaico dell'uso del suol
 
 Se sono disponibili informazioni più dettagliate, gli utenti possono caricare uno shapefile vettoriale con le classi di uso del suolo utilizzando la funzione UPLOAD.
 
-\
-
+<br>
 
 </details>
 

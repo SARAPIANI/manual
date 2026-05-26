@@ -13,4 +13,4 @@ La piattaforma dispone dei seguenti modelli
 
 
 
-\
+<br>

@@ -1,7 +1,28 @@
 ---
-description: Versione  v0.2.160 del 03/01/2025
+description: Versione  v0.2.194 del 20/05/2026
 cover: .gitbook/assets/Asset 10.jpg
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 👋 MANUALE SAFERPLACES PLATFORM

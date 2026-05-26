@@ -1,6 +1,27 @@
 ---
 cover: ../../.gitbook/assets/Asset 10.jpg
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 💻 Creazione Digital Twin e attivazione del servizio nell'area di interesse - SOLO UTENTI REGIONE ER
@@ -26,21 +47,12 @@ La prima modalità attraverso la definizione di un rettangolo, selezionando SELE
 
 La seconda modalità invece mediante la selezione di uno o più bacini idrografici
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/RER_attivazione.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/select_bacini.png" alt=""><figcaption><p>Select By Basins</p></figcaption></figure>
 
 L'utente deve definire un'area di attivazione scegliendo una delle due modalità:
 
 * Selezione di un area rettangolare - cliccando sul pulsante SELECT BY AREA
-
-{% embed url="https://drive.google.com/open?id=1DTjOK-KAVcO-ovOr8cD2M7-8ttYuPgsy&usp=drive_fs" %}
-
 * Selezionare uno o più bacini idrografici - cliccando sul pulsante SELECT BY BASIN
-
-
-
-{% embed url="https://drive.google.com/open?id=1DUxdF0ODTFPlKxHPN54W5Qlxz6Rl9e3i&usp=drive_fs" %}
 
 Sul pannello di destra sono elencati i layers che possono essere visualizzati anche nella fase di attivazione dell'AOI.
 
@@ -48,7 +60,7 @@ Alcuni layers fanno riferimento a servizi GIS REST della Regione Emilia-Romagna.
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Il Wizard procede automaticamente attraverso cinque passaggi per scaricare o selezionare i layer di input necessari per attivare il nuovo progetto:
+Una volta definita l'area (Area rettangolare o bacino idrografico) , il Wizard procede automaticamente a scaricare i layer di input necessari per attivare il nuovo progetto:
 
 
 
@@ -64,18 +76,15 @@ Il Wizard procede automaticamente attraverso cinque passaggi per scaricare o sel
 
 [step-6-crea-e-finalizza-il-progetto.md](step-6-crea-e-finalizza-il-progetto.md "mention")
 
-{% hint style="success" %}
-Attivando l'opzione _**Upload**_ nei diversi passaggi, è possibile caricare layer di proprietà dell'utente.
-{% endhint %}
-
 
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-09 at 23.42.50.png" alt=""><figcaption><p>Interfaccia grafica per la creazione del gemello digitale della città</p></figcaption></figure>
+### Video Esempio di creazione di gemello digitale tramite "Select by area"
 
-### Video Esempio di creazione di gemello digitale&#x20;
+{% file src="../../.gitbook/assets/Video_select_by_area (2).mp4" %}
 
-{% embed url="https://www.loom.com/share/9115c74527804283a3b6ac4c7474769b?sid=e1a64c5a-7178-448f-b774-180cfb5617b6" fullWidth="false" %}
-Esempio di creazione di digital twin (Gemello digitale)
-{% endembed %}
+### Video Esempio di creazione di gemello digitale tramite "Select by basin"
+
+{% file src="../../.gitbook/assets/Video_select_by_basin (2).mp4" %}
+

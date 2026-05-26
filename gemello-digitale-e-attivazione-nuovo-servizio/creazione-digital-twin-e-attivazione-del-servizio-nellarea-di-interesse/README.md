@@ -1,6 +1,27 @@
 ---
 cover: ../../.gitbook/assets/Asset 10.jpg
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 💻 Creazione Digital Twin e attivazione del servizio nell'area di interesse
@@ -24,7 +45,7 @@ Il Wizard guida  l'utente attraverso cinque passi per scaricare o selezionare  i
 [step-6-crea-e-finalizza-il-progetto.md](step-6-crea-e-finalizza-il-progetto.md "mention")&#x20;
 
 {% hint style="success" %}
-Attivando nei diversi passi l'opzione  _**Upload è possibile caricare layer di propietà dell'utente.**_
+Attivando nei diversi passi l'opzione  _**Upload è possibile caricare layer di proprietà dell'utente.**_
 {% endhint %}
 
 In fine, l’ultimo passaggio consiste nel salvare ed attivare il progetto appena creato.

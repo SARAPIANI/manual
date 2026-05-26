@@ -1,9 +1,32 @@
 ---
 cover: ../../.gitbook/assets/Asset 10.jpg
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 💻 Creazione Digital Twin e attivazione del servizio nell'area di interesse - SOLO UTENTI ADBPO
+
+
 
 {% hint style="success" %}
 Accedere alla piattaforma tramite il link: [test.saferplaces.co](http://test.saferplaces.co/)

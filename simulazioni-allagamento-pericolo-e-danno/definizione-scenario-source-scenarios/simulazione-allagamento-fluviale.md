@@ -111,8 +111,7 @@ L'attivazione del modello di calcolo del Danno Economico procede spuntando il ch
 
 **Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non sono necessari ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente.
 
-Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")\
-
+Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")<br>
 
 <img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
 
@@ -149,8 +148,7 @@ Nella sezione "Model" della procedura guidata, è possibile attivare il calcolo 
 
 <img src="../../.gitbook/assets/image (49).png" alt="" data-size="original">
 
-\
-
+<br>
 
 </details>
 
@@ -162,8 +160,7 @@ Cliccando sul pulsante EDIT l'utente può attivare una casella di testo dove ins
 
 <img src="../../.gitbook/assets/4_NOTE_RIVER.png" alt="" data-size="original">
 
-\
-
+<br>
 
 </details>
 
@@ -174,8 +171,7 @@ Cliccando sul pulsante EDIT l'utente può attivare una casella di testo dove ins
 Cliccando sul pulsante RUN l'utente attiva l'esecuzione della simulazione creata.\
 Dopo il lancio, il Pannello di Controllo visualizzerà l'esecuzione del processo con lo stato di avanzamento..
 
-<img src="../../.gitbook/assets/control_panel.png" alt="" data-size="original">\
-
+<img src="../../.gitbook/assets/control_panel.png" alt="" data-size="original"><br>
 
 </details>
 

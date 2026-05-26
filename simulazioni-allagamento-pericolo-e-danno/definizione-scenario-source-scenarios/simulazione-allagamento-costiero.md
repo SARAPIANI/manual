@@ -120,8 +120,7 @@ Nella procedura guidata alla pagina "Model" è possibile attivare il calcolo del
 Il calcolo del Danno Economico viene eseguito in prima analisi applicando le seguenti ipotesi:
 
 1. Tutti gli edifici cono considerati residenziali con un curva di vulnerabilità residenziale
-2.  Valore dell'edificio pari a 1000 euro/mq\
-
+2.  Valore dell'edificio pari a 1000 euro/mq<br>
 
     <figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 

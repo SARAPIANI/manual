@@ -31,13 +31,13 @@ IIl primo step, 1-RAIN, richiede la definizione e caratterizzazione dell'evento 
 L'utente può definire l'intensità di pioggia in mm in tre modi diversi:
 
 1. **Uniforme su tutta l'area del dominio attivata**: Intensità (mm) costante su tutta l'area.
-2. **Localizzata in una sottoarea con intensità non uniforme (disegno)**: Intensità variabile associata a un poligono disegnato dall'utente tramite lo strumento “_Rain_”  presente nella [barra-superiore.md](../../saferplaces-interfaccia-gui-web/barra-superiore.md "mention")
+2. **Localizzata in una sottoarea con intensità non uniforme (disegno)**: Intensità variabile associata a un poligono disegnato dall'utente tramite lo strumento “_Rain_”  presente anche nella [barra-superiore.md](../../saferplaces-interfaccia-gui-web/barra-superiore.md "mention")
 3. **Non uniforme (caricamento)**: Intensità variabile caricando un file raster in formato GeoTIFF, ad esempio da un prodotto RADAR METEO o MODELLO METEO FORECAST.
 4. **Generato da prodotto satellitare**: Intensità (mm) determinata da un prodotto satellitare specifico.
 
 L'utente può definire la durata dell'evento pluviale in ore (h) tramite il box "Total duration of the rainfall event".
 
-<img src="../../.gitbook/assets/1_RAIN.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption><p>1 - RAIN </p></figcaption></figure>
 
 </details>
 
@@ -45,13 +45,11 @@ L'utente può definire la durata dell'evento pluviale in ore (h) tramite il box 
 
 <summary>Modello Infiltrazione del terreno (2-INFILTRATION)</summary>
 
-
-
 Gli utenti possono attivare il modulo di infiltrazione nel terreno durante l'esecuzione della simulazione.
 
 Il Modulo di Infiltrazione si basa sul Modello Green-Ampt e utilizza dati di input dai layer definiti nello [step-3-tasso-di-infiltrazione-raster-geotiff.md](../../gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/step-3-tasso-di-infiltrazione-raster-geotiff.md "mention") e [step-4-litologia-raster-geotiff.md](../../gemello-digitale-e-attivazione-nuovo-servizio/creazione-digital-twin-e-attivazione-del-servizio-nellarea-di-interesse/step-4-litologia-raster-geotiff.md "mention")
 
-<img src="../../.gitbook/assets/2_INFILTRATION.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>2 - INFILTRATION</p></figcaption></figure>
 
 </details>
 
@@ -67,7 +65,7 @@ Per generare una Storage Tank, cliccare su "NEW". Questo permette di posizionare
 
 Nel riquadro "Select Storage Tanks to simulate", l'utente può selezionare o rimuovere le Vasche di Accumulo presenti. Con "REMOVE ALL" si deselezionano tutte le vasche selezionate.
 
-<img src="../../.gitbook/assets/3_STORAGE.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption><p>3 - storage</p></figcaption></figure>
 
 </details>
 
@@ -75,7 +73,7 @@ Nel riquadro "Select Storage Tanks to simulate", l'utente può selezionare o rim
 
 <summary>Modello di calcolo (4-MODEL)</summary>
 
-In questa sezione del Wizard l'utente ha la possibilità di&#x20;
+In questa sezione del Wizard l'utente ha la possibilità di:
 
 1. Selezionare il modello di Allagamento (Hazard)
 2. Attivare il calcolo del Dannno Economico (Damage)
@@ -98,7 +96,19 @@ Nel caso si selezioni il modello [untrim.md](../modelli-di-allagamento-hazard-sa
 
 L'attivazione del modello di calcolo del Danno Economico procede spuntando il check-box "Apply Damage"
 
-<img src="../../.gitbook/assets/4_MODEL.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-26 180148 (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-26 180136.png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>Note (5-NOTE)</summary>
+
+In questa sezione del Wizard, l'utente, tramite il pulsante EDIT, ha la possibilità di aggiungere o togliere informazioni alle note riassuntive sulla simulazione che vengono scritte di default.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -108,8 +118,7 @@ L'attivazione del modello di calcolo del Danno Economico procede spuntando il ch
 
 **Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non sono necessari ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente.
 
-&#x20;Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")\
-
+&#x20;Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")<br>
 
 <img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
 

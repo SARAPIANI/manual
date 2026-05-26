@@ -64,7 +64,7 @@ Una descrizione dettagliata è presente in [visualizzazione-dei-risultati.md](..
 * Identificazione  [#identify](../risultati/visualizzazione-dei-risultati.md#identify "mention")
 * Analisi e bilancio idrico dei [#bluespots](../risultati/visualizzazione-dei-risultati.md#bluespots "mention")
 
-Si veda il capitolo sui risultati ( [Broken link](broken-reference "mention")) per maggiori approfondimenti sulla funzione dei singoli strumenti.&#x20;
+Si veda il capitolo sui risultati ( [Broken link](/broken/pages/AnL0MYK3P1KznpPRgCLk "mention")) per maggiori approfondimenti sulla funzione dei singoli strumenti.&#x20;
 
 </details>
 
@@ -72,15 +72,15 @@ Si veda il capitolo sui risultati ( [Broken link](broken-reference "mention")) p
 
 <summary>strumento Curve di Danno e Valore Edifici</summary>
 
-<img src="../.gitbook/assets/image (48).png" alt="" data-size="original">
+<img src="../.gitbook/assets/damage (1).png" alt="" data-size="original">
 
-In questo gruppo si attiva lo sturmento che consente di personalizzare i dati di valore economico e vulnerabilità di ciascun edificio.
+In questo gruppo si attiva lo strumento che consente di personalizzare i dati di valore economico e vulnerabilità di ciascun edificio.
 
-Una volta attivato il tool, sulla mappe viene automaticamente visulaizzato il layer degli edifici presente nella Digital Twin.\
+Una volta attivato il tool, sulla mappe viene automaticamente visualizzato il layer degli edifici presente nella Digital Twin.\
 Selezionando uno o più edifici (tenendo premuto il tasto destro del mouse è possibile disegnare un poligono di selezione), cliccando con il tasto destro del mouse l'utente attiva una specifica finestra dove:
 
-1. modiifcare il valore (euro/USD) al mq degli edifici selezionati &#x20;
-2. assegnare una curva di danno o vulnerabilità degli edifici. La Damage Function può essere scelta tra alcune curve disponibili oppure genrata in base ai dati e preferenze dell'utente.
+1. modificare il valore (euro/USD) al mq degli edifici selezionati &#x20;
+2. assegnare una curva di danno o vulnerabilità degli edifici. La Damage Function può essere scelta tra alcune curve disponibili oppure generata in base ai dati e preferenze dell'utente.
 
 <img src="../.gitbook/assets/mitigations.png" alt="" data-size="original">
 
@@ -102,7 +102,7 @@ Infine, lo strumento “_Satellite_” consente all'utente di attivare 3 funzion
 * Safer 002
 * Safer 003
 
-Si rimanda al capitolo con la descrizione degli strumenti satellitari per maggiori approfondimenti ( [Broken link](broken-reference "mention"))
+Si rimanda al capitolo con la descrizione degli strumenti satellitari per maggiori approfondimenti ( [Broken link](/broken/pages/dinW0pnG7pZq4CcSbYPV "mention"))
 
 </details>
 

@@ -1,6 +1,27 @@
 ---
 cover: .gitbook/assets/Asset 10.jpg
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 🚀 Pagina My Projects
@@ -27,8 +48,9 @@ Cliccando sui tre puntini in alto a destra del nome del progetto, puoi:
 
 * Rinominare il progetto
 * Duplicare il progetto
+* Condividere il progetto
 * Eliminare il progetto
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-09 at 22.58.19.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/azioni_progetti2.png" alt=""><figcaption></figcaption></figure>
 
