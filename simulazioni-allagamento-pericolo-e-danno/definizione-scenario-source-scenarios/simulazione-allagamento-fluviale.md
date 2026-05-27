@@ -2,17 +2,19 @@
 
 _Nella sezione "Scenario Fluviale"_, gli utenti possono definire e generare uno scenario di allagamento fluviale. Questo può derivare da un rilascio volumetrico, una rottura arginale o sormonto (overtopping), con la fuoriuscita di un flusso o volume d'acqua entro un intervallo di tempo specifico.
 
-I rilasci sono identificati come Sorgenti Puntiformi e possono essere definiti dall'utente posizionandoli lungo gli argini del tratto fluviale oggetto della simulazione
+I rilasci sono identificati come Sorgenti Puntiformi e possono essere definiti dall'utente posizionandoli lungo gli argini del tratto fluviale oggetto della simulazione.
 
 {% hint style="danger" %}
-Durante la localizzazione delle sorgenti di rilascio volumetrico, è fondamentale evitare di posizionare il punto sorgente all'interno del sotto-bacino del corso d'acqua. Così facendo, il rilascio volumetrico influenzerà solo il corso del fiume, senza provocare allagamenti a valle.
+Durante la localizzazione delle sorgenti di rilascio volumetrico, **è fondamentale evitare di posizionare il punto sorgente all'interno del sotto-bacino del corso d'acqua**.&#x20;
+
+Così facendo, il rilascio volumetrico influenzerà solo il corso del fiume, senza provocare allagamenti a valle.
 
 Per individuare con precisione il punto di rilascio, attivare il layer watershed.labels nel gruppo "Bluespots" presente nella [barra-laterale-destra.md](../../saferplaces-interfaccia-gui-web/barra-laterale-destra.md "mention").
 
 Questo layer suddivide il dominio di calcolo in sotto-bacini idrologici e aiuta a determinare in quale bacino il rilascio volumetrico causerà inondazioni.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/watershed.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/watershed.png" alt=""><figcaption><p>Visualizzazione del layer watershed.labels</p></figcaption></figure>
 
 La procedura guidata -Wizard si articola nei seguenti step:
 
@@ -40,7 +42,7 @@ Il primo passo di 1-RIVER riguarda l'identificazione e la caratterizzazione dell
 
 Gli utenti possono generare e localizzare molteplici eventi di rilascio fluviale, determinati da Rottura Arginale o Sormonto Arginale, utilizzando il pulsante "ADD RIVER EVENT".
 
-<img src="../../.gitbook/assets/ADD_RIVER_EVENT.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption><p>ADD RIVER EVENT</p></figcaption></figure>
 
 Dopo avere cliccato sul pulsante si attiva il Tool River che permette di definire sulla mappa i punti di rilascio fluviale.&#x20;
 
@@ -49,12 +51,15 @@ Una volta attivato, il Tool River permette agli utenti di definire i punti di ri
 * **NEW**: Aggiunge un nuovo punto e consente di specificare il volume d'acqua per un rilascio puntuale.
 * **DELETE**: Elimina un singolo punto di rilascio.
 * **CLEAR**: Elimina tutti i punti di rilascio.
+* Definizione del Volume del rilascio tramite slider o direttamente nella casella di testo
 
-Dopo aver aggiunto tutti i punti di rilascio fluviale nel dominio di calcolo, cliccando su "BACK TO THE WIZARD" gli utenti ritornano a una finestra di riepilogo. Questa finestra mostra il numero totale di punti definiti (rappresentanti eventuali brecce o sormonti arginali) e il volume totale rilasciato sull'area del dominio.
+<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption><p>Edit punti di rilascio</p></figcaption></figure>
+
+Dopo aver aggiunto tutti i punti di rilascio fluviale nel dominio di calcolo, cliccando su "BACK TO THE WIZARD" (posizionato a sinistra dell'area di mappatura) gli utenti ritornano a una finestra di riepilogo. Questa finestra mostra il numero totale di punti definiti (rappresentanti eventuali brecce o sormonti arginali) e il volume totale rilasciato sull'area del dominio.
+
+<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p>Back to wizard</p></figcaption></figure>
 
 Gli utenti devono definire la **Durata Totale dell'Evento Fluviale** per tutti i punti generati, utilizzata nel modello idrodinamico UNTRIM. La durata è definita in ore (h) e si applica uniformemente a tutti i punti di rilascio definiti. Non è permesso definire durate specifiche per singoli punti di rilascio.
-
-<img src="../../.gitbook/assets/1_RIVER.png" alt="" data-size="original">
 
 </details>
 
@@ -99,9 +104,23 @@ Nel caso si selezioni il modello [untrim.md](../modelli-di-allagamento-hazard-sa
 * Slider - Tempo di integrazione numerico  (min) -Delta T - Time simulation step
 * Slider - Frequenza Stampa Output  (min) -Ti - Time shoot interval
 
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+
 L'attivazione del modello di calcolo del Danno Economico procede spuntando il check-box "Apply Damage"
 
-<img src="../../.gitbook/assets/fluvial_scenario.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>Inserimento metadati e descrizione della simulazione generata (4-NOTE)</summary>
+
+Cliccando sul pulsante EDIT l'utente può attivare una casella di testo dove inserire metadati e dettagli descrittivi della simulazione che ha appena creato. Di default verranno generate delle note riassuntive della simulazione creata.
+
+<img src="../../.gitbook/assets/4_NOTE_RIVER.png" alt="" data-size="original">&#x20;
+
+<br>
 
 </details>
 
@@ -109,13 +128,13 @@ L'attivazione del modello di calcolo del Danno Economico procede spuntando il ch
 
 <summary>Definizione dei parametri del modello di calcolo</summary>
 
-**Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non sono necessari ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente.
+**Modello SaferPlaces:**
 
-Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")<br>
+Nel caso delle simulazioni Fluviali si attiva automaticamente il codice [safer\_coast.md](../modelli-di-allagamento-hazard-saferplaces/safer_coast.md "mention")
 
-<img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
+Per tale modello di calcolo non sono necessari ulteriori parametri.&#x20;
 
-
+<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
 **Modello UNTRIM:** Se si sceglie il modello idrodinamico UNTRIM, è fondamentale specificare diversi parametri di simulazione tramite gli slider:
 
@@ -137,10 +156,10 @@ Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_
 
 <summary>Attivazione Calcolo del Danno Economico - DAMAGE</summary>
 
-1. Tutti gli edifici sono considerati residenziali, utilizzando una curva di vulnerabilità residenziale.
-2. Valore dell'edificio fissato a 1000 euro/mq.
-
 Il calcolo del danno economico viene eseguito inizialmente con le seguenti ipotesi:
+
+* Tutti gli edifici sono considerati residenziali, utilizzando una curva di vulnerabilità residenziale.
+* Valore dell'edificio fissato a 1000 euro/mq.
 
 Nella sezione "Model" della procedura guidata, è possibile attivare il calcolo del danno economico per ogni edificio inserito.
 
@@ -169,7 +188,7 @@ Cliccando sul pulsante EDIT l'utente può attivare una casella di testo dove ins
 <summary>RUN SIMULAZIONE</summary>
 
 Cliccando sul pulsante RUN l'utente attiva l'esecuzione della simulazione creata.\
-Dopo il lancio, il Pannello di Controllo visualizzerà l'esecuzione del processo con lo stato di avanzamento..
+Dopo il lancio, il Pannello di Controllo visualizzerà l'esecuzione del processo con lo stato di avanzamento.
 
 <img src="../../.gitbook/assets/control_panel.png" alt="" data-size="original"><br>
 

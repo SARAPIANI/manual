@@ -84,7 +84,7 @@ I modelli di allagamento Pluviale disponibili sono:&#x20;
 
 [untrim.md](../modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") - Modello Idrodinamico 2D
 
-L'opzione di default è sempre il modello [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")
+L'opzione di default è sempre il modello , che non prevede la definizione di ulteriori parametri "Setting".&#x20;
 
 Nel caso si selezioni il modello [untrim.md](../modelli-di-allagamento-hazard-saferplaces/untrim.md "mention") occorre definire i seguenti parametri "Settings" cliccando sul task dedicato.&#x20;
 
@@ -106,7 +106,7 @@ L'attivazione del modello di calcolo del Danno Economico procede spuntando il ch
 
 <summary>Note (5-NOTE)</summary>
 
-In questa sezione del Wizard, l'utente, tramite il pulsante EDIT, ha la possibilità di aggiungere o togliere informazioni alle note riassuntive sulla simulazione che vengono scritte di default.&#x20;
+In questa sezione del Wizard, l'utente, tramite il pulsante EDIT, ha la possibilità di aggiungere o togliere dettagli descrittivi alle note riassuntive sulla simulazione, che ha appena creato, che vengono scritte di default.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
@@ -114,15 +114,13 @@ In questa sezione del Wizard, l'utente, tramite il pulsante EDIT, ha la possibil
 
 <details>
 
-<summary>Definizione dei parametri del modello di calcolo</summary>
+<summary>Definizione dei parametri del modello di calcolo, da definirsi in: Modello di calcolo (4-MODEL)</summary>
 
-**Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non sono necessari ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente.
+**Modello SaferPlaces:** Per il modello di calcolo SaferPlaces, non è necessaria la definizione di ulteriori parametri. Nelle simulazioni pluviali, il codice si attiva automaticamente.
 
-&#x20;Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention")<br>
+&#x20;Nel caso delle simulazioni Pluviali si attiva automaticamente il codice [safer\_rain.md](../modelli-di-allagamento-hazard-saferplaces/safer_rain.md "mention"), in cui non ci sono impostazioni da scegliere
 
-<img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
-
-
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-27 113242.png" alt=""><figcaption></figcaption></figure>
 
 **Modello UNTRIM:** Se si sceglie il modello idrodinamico UNTRIM, è fondamentale specificare diversi parametri di simulazione tramite gli slider:
 
@@ -132,9 +130,7 @@ In questa sezione del Wizard, l'utente, tramite il pulsante EDIT, ha la possibil
 * **Delta T - Passo di Integrazione Numerico (sec):** Si consiglia un passo di integrazione di 6 secondi.
 * **Ti - Intervallo di Tempo per gli Output (min):** Definire l'intervallo per la produzione degli output.
 
-![](<../../.gitbook/assets/image (51).png>)
-
-![](<../../.gitbook/assets/image (52).png>)
+<figure><img src="../../.gitbook/assets/UNtrim_impostazioni.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -154,16 +150,6 @@ Il calcolo del danno economico viene eseguito inizialmente con le seguenti ipote
 <img src="../../.gitbook/assets/image (49).png" alt="" data-size="original">
 
 
-
-</details>
-
-<details>
-
-<summary>Inserimento metadati e descrizione della  simulazione generata (5- NOTE)</summary>
-
-Cliccando sul pulsante EDIT l'utente può attivare una casella di testo dove inserire metadati e dettagli descrittivi della simulazione che ha appena creato.
-
-<img src="../../.gitbook/assets/5_NOTE_RUN.png" alt="" data-size="original">
 
 </details>
 
@@ -190,13 +176,9 @@ Dopo il lancio, il Pannello di Controllo visualizzerà l'esecuzione del processo
 
 ## Esempio di simulazione pluviale con Storage Tank
 
-
-
 {% embed url="https://drive.google.com/open?id=1aRcVm58KGtN7-KWEy9y06h-qdiCVclN8&usp=drive_fs" %}
 
 ## Esempio di simulazione pluviale con Modifica Infiltrazione
-
-
 
 {% embed url="https://drive.google.com/open?id=1uAfjjMyb7TrVAHRHZaQdvY-CEnOUBUjG&usp=drive_fs" %}
 
